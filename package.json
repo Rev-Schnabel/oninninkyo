@@ -25,13 +25,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "cross-env PUBLIC_URL=/oninninkyo react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "rm": "rm -rf docs",
-    "mv": "mv build docs",
-    "git": "git add . && git commit && git push origin main",
-    "deploy": "npm run rm && npm run build && npm run mv && npm run git"
+    "deploy": "npm run build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -52,6 +49,8 @@
     ]
   },
   "devDependencies": {
-    "@types/mui-image": "^1.0.1"
+    "@types/mui-image": "^1.0.1",
+    "cross-env": "^7.0.3",
+    "gh-pages": "^4.0.0"
   }
 }
