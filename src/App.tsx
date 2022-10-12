@@ -1,3 +1,5 @@
+import React from "react";
+
 import {
   Routes,
   Route,
@@ -20,8 +22,18 @@ function App() {
           <Route path={`${process.env.PUBLIC_URL}/founder`} element={<Founder />} />
           <Route path={`${process.env.PUBLIC_URL}/oninninian`} element={<Oninninian />} />
           <Route path={`${process.env.PUBLIC_URL}/archive`} element={<Archive />} />
+          <Route path={`${process.env.PUBLIC_URL}/*`} element={< Error404/>} />
         </Routes>
       </BrowserRouter>
+    </div>
+  );
+}
+
+export const Error404: React.FC = () => {
+  return (
+    <div>
+      <h2>404</h2>
+      <p>Page not found.</p>
     </div>
   );
 }
