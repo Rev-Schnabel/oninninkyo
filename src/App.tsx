@@ -15,11 +15,11 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/founder' element={<Founder />} />
-          <Route path='/oninninian' element={<Oninninian />} />
-          <Route path='/archive' element={<Archive />} />
+          <Route path={`${process.env.PUBLIC_URL}/`} element={<Home />} />
+          <Route path={`${process.env.PUBLIC_URL}/about`} element={<About />} />
+          <Route path={`${process.env.PUBLIC_URL}/founder`} element={<Founder />} />
+          <Route path={`${process.env.PUBLIC_URL}/oninninian`} element={<Oninninian />} />
+          <Route path={`${process.env.PUBLIC_URL}/archive`} element={<Archive />} />
         </Routes>
       </BrowserRouter>
     </div>
