@@ -37,7 +37,7 @@ export const Archive: React.FC = () => {
           <List sx={{ p: 0, whiteSpace: 'pre', overflow: 'auto' }}>
             {archive.map((data) => (
               <ListItem key={data.url}>
-                <ListItemText secondary={data.description && "    ⚠︎ " + data.description}>
+                <ListItemText secondary={data.description && "    " + data.description}>
                   <a style={{ textDecoration: "none" }} href={data.url}>{data.title}</a>
                 </ListItemText>
               </ListItem>
@@ -79,12 +79,12 @@ const archive: Archive[] = [
   { 
     title: "【おにんにん総帥】（　＾ω＾）おにんにん教★5",
     url: "https://anago.5ch.net/test/read.cgi/neet4vip/1340527680/",
-    description: "魑魅魍魎によって建てられた偽りの神殿",
+    description: "✖️ 魑魅魍魎によって建てられた偽りの神殿",
   },
   { 
     title: "【おにんにん総帥】シベリア小神殿【（　＾ω＾）人】",
     url: "https://toro.5ch.net/test/read.cgi/siberia/1333020386/",
-    description: "事実上のおにんにん教★5",
+    description: "👍 事実上のおにんにん教★5",
   },
   { 
     title: "【おにんにん総帥】（　＾ω＾）おにんにん教★６",
@@ -93,7 +93,7 @@ const archive: Archive[] = [
   { 
     title: "【おにんにん総帥】（　＾ω＾）おにんにん教★7",
     url: "https://toro.5ch.net/test/read.cgi/siberia/1341038938/",
-    description: "魑魅魍魎によって建てられた偽りの神殿",
+    description: "✖️ 魑魅魍魎によって建てられた偽りの神殿",
   },
   { 
     title: "【おにんにん総帥】（　＾ω＾）おにんにん教★8",
@@ -102,7 +102,7 @@ const archive: Archive[] = [
   { 
     title: "【おにんにん総帥】（　＾ω＾）おにんにん教★9",
     url: "https://toro.5ch.net/test/read.cgi/siberia/1343089717/",
-    description: "魑魅魍魎によって建てられた偽りの神殿",
+    description: "✖️ 魑魅魍魎によって建てられた偽りの神殿",
   },
   { 
     title: "【おにんにん総師】（　＾ω＾）おにんにん教★10",
