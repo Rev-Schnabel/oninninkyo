@@ -6,7 +6,7 @@ export const Oninninian: React.FC = () => {
   return (
     <div>
       <Navigation />
-      hello!
+      While editing...
     </div>
   );
 };
