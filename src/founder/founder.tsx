@@ -31,29 +31,29 @@ export const Founder: React.FC = () => {
             多くの淫乱で怠け者な饅頭はそれを知らない。<br />
           </Typography>
         </Paper>
-        <Paper elevation={3} sx={{ m: 2, p: 2}}>
+        <Paper elevation={3} sx={{ m: 2, p: 2 }}>
           <Typography variant="h5">
             ご尊顔
           </Typography>
           <Divider variant="middle" sx={{ m: 1 }}/>
           <Typography variant="body1" gutterBottom>
             通常時のお姿。
-            <Box sx={{ whiteSpace: 'pre-wrap' }}>
+            <Box sx={{ whiteSpace: 'pre', overflow: 'auto' }}>
               {normal}<br />
             </Box>
             <Divider variant="middle" sx={{ m: 1 }}/>
             笑みを浮かべられたお姿。
-            <Box sx={{ whiteSpace: 'pre-wrap' }}>
+            <Box sx={{ whiteSpace: 'pre', overflow: 'auto' }}>
               {smile}<br />
             </Box>
             <Divider variant="middle" sx={{ m: 1 }}/>
             クリスマスを祝われた際のお姿。
-            <Box sx={{ whiteSpace: 'pre-wrap' }}>
+            <Box sx={{ whiteSpace: 'pre', overflow: 'auto' }}>
               {xmas}<br />
             </Box>
             <Divider variant="middle" sx={{ m: 1 }}/>
             新年を祝われた際のお姿。
-            <Box sx={{ whiteSpace: 'pre-wrap' }}>
+            <Box sx={{ whiteSpace: 'pre', overflow: 'auto' }}>
               {newyear}<br />
             </Box>
           </Typography>
