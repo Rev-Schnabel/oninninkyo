@@ -53,7 +53,7 @@ export const Navigation: React.FC = () => {
               textDecoration: 'none',
             }}
           >
-            The Oninninian Religion
+            Oninninianity
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -114,7 +114,7 @@ export const Navigation: React.FC = () => {
               textDecoration: 'none',
             }}
           >
-            Oninninian
+            Oninninianity
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
