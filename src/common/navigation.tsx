@@ -87,7 +87,7 @@ export const Navigation: React.FC = () => {
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
                   <Link
-                    to={"/" + page.toLowerCase()}
+                    to={`${process.env.PUBLIC_URL}` + "/" + page.toLowerCase()}
                     style={{ color: "inherit", textDecoration: "none" }}
                   >
                     <Typography textAlign="center">
@@ -119,7 +119,7 @@ export const Navigation: React.FC = () => {
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
               <Link
-                to={"/" + page.toLowerCase()}
+                to={`${process.env.PUBLIC_URL}` + "/" + page.toLowerCase()}
                 style={{ color: "inherit", textDecoration: "none" }}
                 key={page}
               >
