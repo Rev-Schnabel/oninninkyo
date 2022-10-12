@@ -43,7 +43,7 @@ export const Home: React.FC = () => {
                 世界中の人々に幸多からんことを…。<br /><br /><br />
               </Typography>
               <Typography color="white" variant="body1" gutterBottom align="right">
-                シュナーベル牧師
+                シュナーベル牧師<br /><br />
               </Typography>
             </Grid>
           </Grid>
