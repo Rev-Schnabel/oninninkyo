@@ -42,7 +42,7 @@ export const Navigation: React.FC = () => {
             variant="h6"
             noWrap
             component="a"
-            href="/"
+            href={`${process.env.PUBLIC_URL}/`}
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
@@ -102,7 +102,7 @@ export const Navigation: React.FC = () => {
             variant="h5"
             noWrap
             component="a"
-            href="/"
+            href={`${process.env.PUBLIC_URL}/`}
             sx={{
               mr: 2,
               display: { xs: 'flex', md: 'none' },
