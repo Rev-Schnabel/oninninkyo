@@ -119,6 +119,7 @@ const archive: Archive[] = [
   { 
     title: "【おにんにん総帥】（　＾ω＾）おにんにん教★12",
     url: "https://toro.5ch.net/test/read.cgi/siberia/1346503392/",
+    description: "✖️ 魑魅魍魎によって建てられた偽りの神殿",
   },
   { 
     title: "【おにんにん総帥】（　＾ω＾）おにんにん教★13",
