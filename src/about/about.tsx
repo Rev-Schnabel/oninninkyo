@@ -7,6 +7,8 @@ import {
   Divider
 } from "@mui/material";
 
+import from_the_foot_of_Olympus from './media/From_the_foot_of_Olympus.mp3';
+
 import { Navigation } from "../common/navigation";
 
 export const About: React.FC = () => {
@@ -65,6 +67,11 @@ export const About: React.FC = () => {
         <Paper elevation={3} sx={{ m: 2, p: 2}}>
           <Typography variant="h5">
             おにんにん総帥の賛美歌
+          </Typography>
+          <Divider variant="middle" sx={{ m: 1 }}/>
+          <Typography variant="body1" gutterBottom>
+            From the foot of Olympus (ショートバージョン)<br /><br />
+            <audio controls src={from_the_foot_of_Olympus} />
           </Typography>
           <Divider variant="middle" sx={{ m: 1 }}/>
           <Typography variant="body1" gutterBottom>
