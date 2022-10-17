@@ -52,19 +52,3 @@ export const Founder: React.FC = () => {
     </div>
   );
 };
-
-const normal: string = `
-
-`;
-
-const smile: string = `
-`
-
-const xmas: string = `
-`;
-
-const newyear: string = `
-`
-
-const war: string = `
-`
