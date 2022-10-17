@@ -7,7 +7,8 @@ import {
   Divider,
   List,
   ListItem,
-  ListItemText
+  ListItemText,
+  Grid
 } from "@mui/material";
 
 import { Navigation } from "../common/navigation";
@@ -46,25 +47,32 @@ export const Oninninian: React.FC = () => {
                   primary={p.name}
                   secondary={
                     <React.Fragment>
-                      <Typography
-                        sx={{ display: 'inline' }}
-                        component="span"
-                        variant="body2"
-                        color="text.primary"
-                      >
-                        - 弟子入り日: <a style={{ textDecoration: "none" }} href={p.apprenticeshipDateUrl}>{p.apprenticeshipDate}</a><br />
-                      </Typography>
-                      {p.pastorInaugurationDate && 
-                        <Typography
-                          sx={{ display: 'inline' }}
-                          component="span"
-                          variant="body2"
-                          color="text.primary"
-                        >
-                          - 牧師就任日: <a style={{ textDecoration: "none" }} href={p.pastorInaugurationDateUrl}>{p.pastorInaugurationDate}</a><br />
-                        </Typography>
-                      }
-                      - {p.description}
+                      <Grid container>
+                        <Grid item xs={12} sm={4}>
+                          <br />{p.face}
+                        </Grid>
+                          <Grid item xs={12} sm={8}>
+                            <Typography
+                              sx={{ display: 'inline' }}
+                              component="span"
+                              variant="body2"
+                              color="text.primary"
+                            >
+                              <br />弟子入り日: <a style={{ textDecoration: "none" }} href={p.apprenticeshipDateUrl}>{p.apprenticeshipDate}</a><br />
+                            </Typography>
+                            {p.pastorInaugurationDate && 
+                              <Typography
+                                sx={{ display: 'inline' }}
+                                component="span"
+                                variant="body2"
+                                color="text.primary"
+                              >
+                                牧師就任日: <a style={{ textDecoration: "none" }} href={p.pastorInaugurationDateUrl}>{p.pastorInaugurationDate}</a><br />
+                              </Typography>
+                            }
+                            <br />{p.description}
+                          </Grid>
+                        </Grid>
                       <Divider variant="middle" sx={{ m: 1 }}/>
                     </React.Fragment>
                   }        
@@ -77,7 +85,6 @@ export const Oninninian: React.FC = () => {
           <Typography variant="h5">
             熱心な信徒達
           </Typography>
-          <Divider variant="middle" sx={{ m: 1 }}/>
           <List>
             {otherPeople.map(p => (
               <ListItem>
@@ -85,15 +92,24 @@ export const Oninninian: React.FC = () => {
                   primary={p.name}
                   secondary={
                     <React.Fragment>
-                      <Typography
-                        sx={{ display: 'inline' }}
-                        component="span"
-                        variant="body2"
-                        color="text.primary"
-                      >
-                        - 初出: <a style={{ textDecoration: "none" }} href={p.apprenticeshipDateUrl}>{p.apprenticeshipDate}</a><br />
-                      </Typography>
-                      - {p.description}
+                      <Grid container>
+                        <Grid item xs={12} sm={4}>
+                          <Box sx={{ whiteSpace: 'pre', overflow: 'auto' }}>
+                            <br />{p.face}
+                          </Box>
+                        </Grid>
+                          <Grid item xs={12} sm={8}>
+                            <Typography
+                              sx={{ display: 'inline' }}
+                              component="span"
+                              variant="body2"
+                              color="text.primary"
+                            >
+                              <br />初出: <a style={{ textDecoration: "none" }} href={p.apprenticeshipDateUrl}>{p.apprenticeshipDate}</a><br />
+                            </Typography>
+                            <br />{p.description}
+                          </Grid>
+                        </Grid>
                       <Divider variant="middle" sx={{ m: 1 }}/>
                     </React.Fragment>
                   }        
@@ -114,15 +130,24 @@ export const Oninninian: React.FC = () => {
                   primary={p.name}
                   secondary={
                     <React.Fragment>
-                      <Typography
-                        sx={{ display: 'inline' }}
-                        component="span"
-                        variant="body2"
-                        color="text.primary"
-                      >
-                        - 初出: <a style={{ textDecoration: "none" }} href={p.apprenticeshipDateUrl}>{p.apprenticeshipDate}</a><br />
-                      </Typography>
-                      - {p.description}
+                      <Grid container>
+                        <Grid item xs={12} sm={4}>
+                          <Box sx={{ whiteSpace: 'pre', overflow: 'auto' }}>
+                            <br />{p.face}
+                          </Box>
+                        </Grid>
+                          <Grid item xs={12} sm={8}>
+                            <Typography
+                              sx={{ display: 'inline' }}
+                              component="span"
+                              variant="body2"
+                              color="text.primary"
+                            >
+                              <br />初出: <a style={{ textDecoration: "none" }} href={p.apprenticeshipDateUrl}>{p.apprenticeshipDate}</a><br />
+                            </Typography>
+                            <br />{p.description}
+                          </Grid>
+                        </Grid>
                       <Divider variant="middle" sx={{ m: 1 }}/>
                     </React.Fragment>
                   }        
