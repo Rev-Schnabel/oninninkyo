@@ -3,6 +3,7 @@ import { People } from "./types";
 export const people: People[] = [
   {
     name: "ディオニュソス牧師 ◆wagQ2hhjjo",
+    face: "（　＾ω＾）",
     apprenticeshipDate: "2012/01/27 22:39:46",
     apprenticeshipDateUrl: "https://uni.5ch.net/test/read.cgi/psy/1325761010/",
     pastorInaugurationDate: "2012/02/12 04:39:13",
@@ -11,6 +12,7 @@ export const people: People[] = [
   },
   {
     name: "イグニス牧師 ◆cA7oIM8fok",
+    face: "（　＾ω＾）",
     apprenticeshipDate: "2012/01/27 23:05:59",
     apprenticeshipDateUrl: "https://uni.5ch.net/test/read.cgi/psy/1325761010/",
     pastorInaugurationDate: "2012/12/30 10:31:44",
@@ -19,6 +21,7 @@ export const people: People[] = [
   },
   {
     name: "ノトス ◆a/ipWNjqEOyZ",
+    face: "（　＾ω＾）",
     apprenticeshipDate: "2012/01/29 20:04:21",
     apprenticeshipDateUrl: "https://uni.5ch.net/test/read.cgi/psy/1327750781/",
     pastorInaugurationDate: "",
@@ -27,6 +30,7 @@ export const people: People[] = [
   },
   {
     name: "エンシス ◆Ensis4mjh2",
+    face: "（　＾ω＾）",
     apprenticeshipDate: "2012/01/29 20:11:20",
     apprenticeshipDateUrl: "https://uni.5ch.net/test/read.cgi/psy/1327750781/",
     pastorInaugurationDate: "",
@@ -35,6 +39,7 @@ export const people: People[] = [
   },
   {
     name: "シュナーベル牧師 ◆C/jyg/cVzU / ◆rZ7bAbN1dI",
+    face: "（　＾ω＾）",
     apprenticeshipDate: "2012/02/04 01:16:07",
     apprenticeshipDateUrl: "https://uni.5ch.net/test/read.cgi/psy/1327750781/",
     pastorInaugurationDate: "2012/08/14 01:14:41",
@@ -43,6 +48,7 @@ export const people: People[] = [
   },
   {
     name: "シャマール ◆IctVvvPOHs",
+    face: "（　＾ω＾）",
     apprenticeshipDate: "2012/02/04 21:51:39",
     apprenticeshipDateUrl: "https://uni.5ch.net/test/read.cgi/psy/1327750781/",
     pastorInaugurationDate: "",
@@ -51,6 +57,7 @@ export const people: People[] = [
   },
   {
     name: "ミレイユ ◆tyTXROdtXc",
+    face: "ξ　＾ω＾ξ",
     apprenticeshipDate: "2012/02/05 17:39:48",
     apprenticeshipDateUrl: "https://uni.5ch.net/test/read.cgi/psy/1327750781/",
     pastorInaugurationDate: "",
@@ -59,6 +66,7 @@ export const people: People[] = [
   },
   {
     name: "エイレーネ",
+    face: "（　＾ω＾）",
     apprenticeshipDate: "2012/04/19 02:42:22",
     apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1333020386/",
     pastorInaugurationDate: "",
@@ -67,6 +75,7 @@ export const people: People[] = [
   },
   {
     name: "デュナミス ◆WOXoeYTlQo",
+    face: "（　＾ω＾）",
     apprenticeshipDate: "2012/07/16 20:50:25",
     apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1341138609/",
     pastorInaugurationDate: "",
@@ -75,6 +84,7 @@ export const people: People[] = [
   },
   {
     name: "ラエティティア ◆eSdnZiwB6A",
+    face: "（　＾ω＾）",
     apprenticeshipDate: "2012/07/20 02:23:10",
     apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1341138609/",
     pastorInaugurationDate: "",
@@ -83,6 +93,7 @@ export const people: People[] = [
   },
   {
     name: "スプランクニゾマイ ◆Alice//LXs",
+    face: "（　＾ω＾）",
     apprenticeshipDate: "2012/08/04 00:21:00",
     apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1343208178/",
     pastorInaugurationDate: "",
@@ -91,6 +102,7 @@ export const people: People[] = [
   },
   {
     name: "ルーセント ◆7iXSkOsVgM",
+    face: "（　＾ω＾）",
     apprenticeshipDate: "2012/08/11 22:19:36",
     apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1343208178/",
     pastorInaugurationDate: "",
@@ -99,6 +111,7 @@ export const people: People[] = [
   },
   {
     name: "クリマ ◆nHEiDXi6lU",
+    face: "（　＾ω＾）",
     apprenticeshipDate: "2012/08/11 22:20:47",
     apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1343208178/",
     pastorInaugurationDate: "",
@@ -107,6 +120,7 @@ export const people: People[] = [
   },
   {
     name: "フェーリークス ◆.Apple.HfM",
+    face: "（　＾ω＾）",
     apprenticeshipDate: "2012/09/17 18:39:54",
     apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1346823121/",
     pastorInaugurationDate: "",
@@ -115,6 +129,7 @@ export const people: People[] = [
   },
   {
     name: "クレスケンスルーナ ◆jvdNOCQgZU",
+    face: "（　＾ω＾）",
     apprenticeshipDate: "2013/03/02 00:40:16",
     apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1359776314/",
     pastorInaugurationDate: "",
@@ -123,6 +138,7 @@ export const people: People[] = [
   },
   {
     name: "オルフェデルンボ　 ◆w1PVfgj8PY",
+    face: "（　＾ω＾）",
     apprenticeshipDate: "2014/04/21 02:38:07",
     apprenticeshipDateUrl: "https://mastiff.5ch.net/test/read.cgi/siberia/1395630708/",
     pastorInaugurationDate: "",
@@ -135,6 +151,7 @@ export const people: People[] = [
 export const otherPeople: People[] = [
   {
     name: "おにんにん教第13課イグニス / おにんにん教第十三課イグニス",
+    face: "（　＾ω＾）",
     apprenticeshipDate: "",
     apprenticeshipDateUrl: "https://uni.5ch.net/test/read.cgi/psy/1327750781/",
     pastorInaugurationDate: "",
@@ -143,6 +160,7 @@ export const otherPeople: People[] = [
   },
   {
     name: "アスース",
+    face: "（　＾ω＾）",
     apprenticeshipDate: "",
     apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1349027051/",
     pastorInaugurationDate: "",
@@ -151,6 +169,7 @@ export const otherPeople: People[] = [
   },
   {
     name: "ディオトドス",
+    face: "（　＾ω＾）",
     apprenticeshipDate: "",
     apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1349027051/",
     pastorInaugurationDate: "",
@@ -159,6 +178,7 @@ export const otherPeople: People[] = [
   },
   {
     name: "ヘルネスエス",
+    face: "（　＾ω＾）",
     apprenticeshipDate: "",
     apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1349027051/",
     pastorInaugurationDate: "",
@@ -167,6 +187,18 @@ export const otherPeople: People[] = [
   },
   {
     name: "おにんにん総帥の偽物 (優良なる偽物)",
+    face: `
+　　　 　 　／　　　　　　　　　　　　　　　　　　　　　＼
+　　　 　 /　　,r'"j　　　　　　　　　　　　　　　 i^'!、　　ヽ
+　　　　/　　 </´　　　　　　　　　　　　　　　　｀ヾ>　　.:;i,　
+　　　 ,l　　　　　　　　_,._,.　　　　　　　 _,._,.　　　　　　 .:.:l,　
+　　　 |　　　　　　　< (ヅ,>　　　　　 < (ヅ,>　　　　　...:.::|　
+　　　 !　　　　　　 　｀￣´ 　 　 　. 　 ｀￣´ 　 　 　 ..: :::::!　
+　　　｜　　　　　　　　　　 ﾉ . : . :;i,　　 　 　 　　 ... ::::::.:::|　
+　 　　 !　　　　　　　　　　（.::.;人..;:::） 　　　　　...:.:::::.:::::::::!　
+　　　　ヽ、　　　　　　　　　｀´　 ｀´　　　 ........::..::..::.::::::::/　
+　　　　　 ＼......,,,,,,,_ 　　　　　　　　 　.....:::::::::::::::::::::::::／    
+    `,
     apprenticeshipDate: "",
     apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1349027051/",
     pastorInaugurationDate: "",
@@ -175,6 +207,7 @@ export const otherPeople: People[] = [
   },
   {
     name: "フランチェスカ・ニコトロール",
+    face: "（　＾ω＾）",
     apprenticeshipDate: "",
     apprenticeshipDateUrl: "",
     pastorInaugurationDate: "",
@@ -183,6 +216,27 @@ export const otherPeople: People[] = [
   },
   {
     name: "万歳",
+    face: `
+    　　　　 　 ,;-‐'ﾞ､^:^ｰ､.　　　　　　　　　　　　　　　　　　　　　　　 i' / ;' ;ﾞﾞヽ、
+    　　　 　／ ､ r､.ﾞ:､ﾞi ヽ!　　　　　　　_,,,,,....-―--　､,,,_　　　　　　 　'ﾞﾞ、/_r 　ヽ、
+    　　　　/　　iﾞｰ'^ｰ'‐'‐'　　 _,,.-‐:''""　　　　　　　　　　 ~\`'ｰ-.､　　　　　　｀i 　 ﾞ:､
+    　　　 /　 　,;!　 　 　 　／　　　　　　　　　　　　　　　　　　　　　＼　　　 　|　 　ﾞ:
+    　　. /　　 ,;: |　 　 　 /　　,r'"j　　　　　　　　　　　　　　　 i^'!、　　ヽ　　　 |　 　 ﾞi
+    　　/　　　;;'_,!　　　./　　 <\´　　　　　　　　　　　　　　　　｀ヾ>　　.:;i,　 　_,!　　 　ﾞ:
+    　.,ﾉｰ‐‐'''''" ﾞ7'ー ,l　　　　　　　　_,._,.　　　　　　　 _,._,.　　　　　　 .:.:l⌒\`i::ﾞヾ、___,,!
+    　i'::::::ヾ;;::::::::　　　 |　　　　　　　< (●,>　　　　　 < (●,>　　 　　...:.::::|　　.:::::::::::::;;ﾉ　おにんにん総帥ばんざーいばんざーい
+    　.ﾞヾ;;:::::ﾞ､::::;　　ミ !　　　　　　 　｀￣´ 　 　 　. 　 ｀￣´　　　　 ..: :::::::!　　.:::::::;;;／
+    　　　｀ﾞﾞﾞ''ヾ;;!_　彡 |　 　　　　　　　　　 ﾉ . : . :;i,　　 　　　　　　.::::::::.::|　　-‐'"
+    　　　　　　　　　　　!　　　　　　　　　　（.::.;人..;:::） 　　　　　.:::::::::::::::::::!￣"
+    　　　　　　　　　　　ヽ、　　　　　　　　　\｀´　 \｀´　　　 ........::..::..::::::::::::/
+    　　　　　　　　　 ＿　 ＼　　　　　　　　　　　　　　 ...:::::::::::::::::::::::::／ ＿＿
+    　　　　　 　,. ''￣　　￣　＼,,,,,,,_ 　　　　　 　 　 ...:::::::::::::::::::::::::／'´￣　 　 ￣｀ヽ
+    　　　　　　{、　　　　　　　　　　　\`ー-､＿＿＿＿-‐'"￣￣　 　　　　　　＿,ｨ　,{
+    　　　　　　!　 / ﾄ､｀ｰ―'｀　　　　　　ﾉ　　　　　　丶　　　　　　　ｯｰ--‐'' イ､ 　 }
+    　　　　　　{　;　 |　｀ｰ....,;_￣｀ー::;;;／　　　　　　　　＼　　.´ 　 _'__... -''´　{　l､　|
+    　　　　　　|　; 　} 　　　　 ￣￣　　　　　　　　　　　　　￣￣￣　　　 　　　|　l　 |
+    　　　　　　.!　　/　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 ヾ　　|    
+    `,
     apprenticeshipDate: "",
     apprenticeshipDateUrl: "",
     pastorInaugurationDate: "",
@@ -191,6 +245,7 @@ export const otherPeople: People[] = [
   },
   {
     name: "草爺 / 草じぃ",
+    face: "（　＾＾）ω",
     apprenticeshipDate: "",
     apprenticeshipDateUrl: "",
     pastorInaugurationDate: "",
@@ -199,6 +254,7 @@ export const otherPeople: People[] = [
   },
   {
     name: "ツンドリー ◆DoAsSEEYd.",
+    face: "(ヾ'ω`)",
     apprenticeshipDate: "",
     apprenticeshipDateUrl: "",
     pastorInaugurationDate: "",
@@ -207,6 +263,15 @@ export const otherPeople: People[] = [
   },
   {
     name: "あにじゃ",
+    face: `
+　　　　 △　　　
+　　　 （ ´｀ω） 　
+　　　.ノ^　yヽ、　　
+　　　ヽ,,ﾉ==l ﾉ 　　　
+　　　　 ）ノ 　　　　　　
+　　　 ▲ 　　　　　　　　
+"""~""""""~"""~    
+    `,
     apprenticeshipDate: "",
     apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1373900023/",
     pastorInaugurationDate: "",
@@ -215,6 +280,7 @@ export const otherPeople: People[] = [
   },
   {
     name: "ぽれ",
+    face: "（　´ω｀）",
     apprenticeshipDate: "",
     apprenticeshipDateUrl: "",
     pastorInaugurationDate: "",
@@ -226,6 +292,24 @@ export const otherPeople: People[] = [
 export const evilSpirits: People[] = [
   {
     name: "フグリー",
+    face: `
+　　　　　　　　　＿＿＿＿＿
+　　　 　 　 　 ／ﾉ　　　　　 ヽ ＼
+　　　　　　／　／・＼　　／・＼　＼　　　
+　　　　　 |　　　￣￣　　　￣￣　　 |
+　　　　　 |　　　　（＿人＿）､ 　　　 |
+　　　　　 |　　　　　＼　　　|　　　　 |
+　 　 　 　 ＼　　　　　＼＿|　　　 ／
+　　 　　　　　　　　|　|　　 | |
+　　　　　　　　|　|　　 | | 　　　　
+　　　　　 　　｜| 　　｜|
+　　　　　　　　し|　 i　|J＝二フ
+　　　　　　 　　 .|　 |｜
+　　　　　　　 　｜ ﾉ ﾉ
+　　　　　　　　　.| .| （
+　　　　　　　　　/ |＼.＼　
+　　　　　　　　　し' 　￣    
+    `,
     apprenticeshipDate: "",
     apprenticeshipDateUrl: "https://uni.5ch.net/test/read.cgi/psy/1325761010/",
     pastorInaugurationDate: "",
@@ -234,6 +318,20 @@ export const evilSpirits: People[] = [
   },
   {
     name: "アバドン",
+    face: `
+　　　　　　　　　　　　　　　_i⌒)-､
+　　　　　　　　　　　 ,ー-（　_,O ､.ﾉ--'-、
+　.　 　 　 　 　 　 ／（　＾ω＾）廴（　＾ω＾＼
+　.　 　 　 　 　 　/＾ω＾　　＾ω＾　＾ω　_,..,_',
+　　　　　　　　　ﾉ　,r'で¨)ヾ,　　ｼ ,ｨで')ﾞ､__ }
+　　　　　 　 　ﾉ　　 ￣￣´　 人　￣￣　 　',　　　
+　　　　　　 　/　（　＾ω＾（　＾ω＾）（　＾ω＾）i　　　
+　　　　　　　/＾ω＾　　　,.:::二二ﾆ:::.､.＾ω＾ i
+　　　　　　ﾉ　　＾ω＾）　r'ｴ┴┴'ｰダ　　　,/
+　　　　 ／　　＾ω＾）＾ωヾ=､＿_.／（　＾ω＾）　
+　　　／　＾ω＾　＾ω＾）＾ω＾（　＾ω＾）（　＾ω＾）　　　　　　　　　　　　　
+　　　(,,,,ﾉ（　｝(,,ﾉ(,,,ﾉ｛　）(,,,,ﾉ（　｝(,,ﾉ(,,,,ﾉ(,,,,ﾉ    
+    `,
     apprenticeshipDate: "",
     apprenticeshipDateUrl: "https://uni.5ch.net/test/read.cgi/psy/1325761010/",
     pastorInaugurationDate: "",
@@ -242,6 +340,7 @@ export const evilSpirits: People[] = [
   },
   {
     name: "アーダー",
+    face: "（　＾ω＾）",
     apprenticeshipDate: "",
     apprenticeshipDateUrl: "",
     pastorInaugurationDate: "",
@@ -250,6 +349,7 @@ export const evilSpirits: People[] = [
   },
   {
     name: "ナータランジャナム",
+    face: "（　＾ω＾）",
     apprenticeshipDate: "",
     apprenticeshipDateUrl: "",
     pastorInaugurationDate: "",
@@ -258,6 +358,7 @@ export const evilSpirits: People[] = [
   },
   {
     name: "オーウェン閣下 ◆CjxINalPTQ",
+    face: "（　＾ω＾）",
     apprenticeshipDate: "",
     apprenticeshipDateUrl: "",
     pastorInaugurationDate: "",
@@ -266,6 +367,7 @@ export const evilSpirits: People[] = [
   },
   {
     name: "タンザニア岡本",
+    face: "（　＾ω＾）",
     apprenticeshipDate: "",
     apprenticeshipDateUrl: "",
     pastorInaugurationDate: "",
@@ -274,6 +376,7 @@ export const evilSpirits: People[] = [
   },
   {
     name: "ソクラテス鬼塚",
+    face: "┌(＾ ω＾)┘",
     apprenticeshipDate: "",
     apprenticeshipDateUrl: "",
     pastorInaugurationDate: "",
@@ -282,6 +385,7 @@ export const evilSpirits: People[] = [
   },
   {
     name: "イマラーン",
+    face: "（　＾ω＾）",
     apprenticeshipDate: "",
     apprenticeshipDateUrl: "",
     pastorInaugurationDate: "",
@@ -290,6 +394,7 @@ export const evilSpirits: People[] = [
   },
   {
     name: "クロノス / スパークリングゾマホン",
+    face: "（　＾ω＾）",
     apprenticeshipDate: "",
     apprenticeshipDateUrl: "",
     pastorInaugurationDate: "",
