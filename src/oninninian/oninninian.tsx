@@ -4,14 +4,11 @@ import {
   Paper,
   Box,
   Typography,
-  Divider,
-  List,
-  ListItem,
-  ListItemText,
-  Grid
+  Divider
 } from "@mui/material";
 
 import { Navigation } from "../common/navigation";
+import { Introducer } from "./introducer";
 
 import { 
   people,
@@ -35,127 +32,9 @@ export const Oninninian: React.FC = () => {
             また、おにんにん教に災いをもたらした確執のある魑魅魍魎達や、魑魅魍魎でありながらおにんにん総帥を唸らせた者、魑魅魍魎と疑われるが妙な存在感を纏っている者についても記録する。
           </Typography>
         </Paper>
-        <Paper elevation={3} sx={{ m: 2, p: 2}}>
-          <Typography variant="h5">
-            おにんにん総帥の弟子達
-          </Typography>
-          <Divider variant="middle" sx={{ m: 1 }}/>
-          <List>
-            {people.map(p => (
-              <ListItem>
-                <ListItemText
-                  primary={p.name}
-                  secondary={
-                    <React.Fragment>
-                      <Grid container>
-                        <Grid item xs={12} sm={4}>
-                          <br />{p.face}
-                        </Grid>
-                          <Grid item xs={12} sm={8}>
-                            <Typography
-                              sx={{ display: 'inline' }}
-                              component="span"
-                              variant="body2"
-                              color="text.primary"
-                            >
-                              <br />弟子入り日: <a style={{ textDecoration: "none" }} href={p.apprenticeshipDateUrl}>{p.apprenticeshipDate}</a><br />
-                            </Typography>
-                            {p.pastorInaugurationDate && 
-                              <Typography
-                                sx={{ display: 'inline' }}
-                                component="span"
-                                variant="body2"
-                                color="text.primary"
-                              >
-                                牧師就任日: <a style={{ textDecoration: "none" }} href={p.pastorInaugurationDateUrl}>{p.pastorInaugurationDate}</a><br />
-                              </Typography>
-                            }
-                            <br />{p.description}
-                          </Grid>
-                        </Grid>
-                      <Divider variant="middle" sx={{ m: 1 }}/>
-                    </React.Fragment>
-                  }        
-                />
-              </ListItem>
-            ))}
-          </List>
-        </Paper>
-        <Paper elevation={3} sx={{ m: 2, p: 2}}>
-          <Typography variant="h5">
-            熱心な信徒達
-          </Typography>
-          <List>
-            {otherPeople.map(p => (
-              <ListItem>
-                <ListItemText
-                  primary={p.name}
-                  secondary={
-                    <React.Fragment>
-                      <Grid container>
-                        <Grid item xs={12} sm={4}>
-                          <Box sx={{ whiteSpace: 'pre', overflow: 'auto' }}>
-                            <br />{p.face}
-                          </Box>
-                        </Grid>
-                          <Grid item xs={12} sm={8}>
-                            <Typography
-                              sx={{ display: 'inline' }}
-                              component="span"
-                              variant="body2"
-                              color="text.primary"
-                            >
-                              <br />初出: <a style={{ textDecoration: "none" }} href={p.apprenticeshipDateUrl}>{p.apprenticeshipDate}</a><br />
-                            </Typography>
-                            <br />{p.description}
-                          </Grid>
-                        </Grid>
-                      <Divider variant="middle" sx={{ m: 1 }}/>
-                    </React.Fragment>
-                  }        
-                />
-              </ListItem>
-            ))}
-          </List>
-        </Paper>
-        <Paper elevation={3} sx={{ m: 2, p: 2}}>
-          <Typography variant="h5">
-            特別に警戒すべき魑魅魍魎達
-          </Typography>
-          <Divider variant="middle" sx={{ m: 1 }}/>
-          <List>
-            {evilSpirits.map(p => (
-              <ListItem>
-                <ListItemText
-                  primary={p.name}
-                  secondary={
-                    <React.Fragment>
-                      <Grid container>
-                        <Grid item xs={12} sm={4}>
-                          <Box sx={{ whiteSpace: 'pre', overflow: 'auto' }}>
-                            <br />{p.face}
-                          </Box>
-                        </Grid>
-                          <Grid item xs={12} sm={8}>
-                            <Typography
-                              sx={{ display: 'inline' }}
-                              component="span"
-                              variant="body2"
-                              color="text.primary"
-                            >
-                              <br />初出: <a style={{ textDecoration: "none" }} href={p.apprenticeshipDateUrl}>{p.apprenticeshipDate}</a><br />
-                            </Typography>
-                            <br />{p.description}
-                          </Grid>
-                        </Grid>
-                      <Divider variant="middle" sx={{ m: 1 }}/>
-                    </React.Fragment>
-                  }        
-                />
-              </ListItem>
-            ))}
-          </List>
-        </Paper>
+        <Introducer title="おにんにん総帥の弟子達" people={people} />
+        <Introducer title="熱心な信徒達" people={otherPeople} />
+        <Introducer title="特別に警戒すべき魑魅魍魎達" people={evilSpirits} />
       </Box>
     </div>
   );
