@@ -36,7 +36,7 @@ export const Oninninian: React.FC = () => {
         </Paper>
         <Paper elevation={3} sx={{ m: 2, p: 2}}>
           <Typography variant="h5">
-            おにんにん教の弟子達
+            おにんにん総帥の弟子達
           </Typography>
           <Divider variant="middle" sx={{ m: 1 }}/>
           <List>
