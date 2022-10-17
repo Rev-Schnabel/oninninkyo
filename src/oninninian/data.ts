@@ -129,7 +129,7 @@ export const people: People[] = [
   },
   {
     name: "クレスケンスルーナ ◆jvdNOCQgZU",
-    face: "（　＾ω＾）",
+    face: "（　＾＾ω）",
     apprenticeshipDate: "2013/03/02 00:40:16",
     apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1359776314/",
     pastorInaugurationDate: "",
