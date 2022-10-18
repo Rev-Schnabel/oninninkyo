@@ -33,8 +33,8 @@ export const Oninninian: React.FC = () => {
           </Typography>
         </Paper>
         <Introducer title="おにんにん総帥の弟子達" dateName= "弟子入り日" people={people} />
-        <Introducer title="熱心な信徒達" dateName= "初出日" people={otherPeople} />
-        <Introducer title="特別に警戒すべき魑魅魍魎達" dateName= "初出日" people={evilSpirits} />
+        <Introducer title="熱心な信徒達" dateName= "初出" people={otherPeople} />
+        <Introducer title="特別に警戒すべき魑魅魍魎達" dateName= "初出" people={evilSpirits} />
       </Box>
     </div>
   );
