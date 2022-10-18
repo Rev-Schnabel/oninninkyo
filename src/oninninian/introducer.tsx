@@ -15,6 +15,7 @@ import { People } from "./types";
 
 type Props = {
   title: string;
+  dateName: string;
   people: People[];
 };
 
@@ -45,7 +46,7 @@ export const Introducer: React.FC<Props> = (props: Props) => {
                           variant="body2"
                           color="text.primary"
                         >
-                          <br />弟子入り日: <a style={{ textDecoration: "none" }} href={p.apprenticeshipDateUrl}>{p.apprenticeshipDate}</a><br />
+                          <br />{props.dateName}: <a style={{ textDecoration: "none" }} href={p.apprenticeshipDateUrl}>{p.apprenticeshipDate}</a><br />
                         </Typography>
                         {p.pastorInaugurationDate && 
                           <Typography

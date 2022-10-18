@@ -32,9 +32,9 @@ export const Oninninian: React.FC = () => {
             また、おにんにん教に災いをもたらした確執のある魑魅魍魎達や、魑魅魍魎でありながらおにんにん総帥を唸らせた者、魑魅魍魎と疑われるが妙な存在感を纏っている者についても記録する。
           </Typography>
         </Paper>
-        <Introducer title="おにんにん総帥の弟子達" people={people} />
-        <Introducer title="熱心な信徒達" people={otherPeople} />
-        <Introducer title="特別に警戒すべき魑魅魍魎達" people={evilSpirits} />
+        <Introducer title="おにんにん総帥の弟子達" dateName= "弟子入り日" people={people} />
+        <Introducer title="熱心な信徒達" dateName= "初出日" people={otherPeople} />
+        <Introducer title="特別に警戒すべき魑魅魍魎達" dateName= "初出日" people={evilSpirits} />
       </Box>
     </div>
   );
