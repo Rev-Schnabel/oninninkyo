@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/oninninkyo/static/css/main.e6c13ad2.css",
-    "main.js": "/oninninkyo/static/js/main.d42e3195.js",
+    "main.js": "/oninninkyo/static/js/main.c0c7277a.js",
     "static/js/787.91d71976.chunk.js": "/oninninkyo/static/js/787.91d71976.chunk.js",
     "static/media/From_the_foot_of_Olympus.mp3": "/oninninkyo/static/media/From_the_foot_of_Olympus.a402d93c53af0cb05f6f.mp3",
     "static/media/oninnin.png": "/oninninkyo/static/media/oninnin.77321c3748c5fae26166.png",
     "index.html": "/oninninkyo/index.html",
     "main.e6c13ad2.css.map": "/oninninkyo/static/css/main.e6c13ad2.css.map",
-    "main.d42e3195.js.map": "/oninninkyo/static/js/main.d42e3195.js.map",
+    "main.c0c7277a.js.map": "/oninninkyo/static/js/main.c0c7277a.js.map",
     "787.91d71976.chunk.js.map": "/oninninkyo/static/js/787.91d71976.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.d42e3195.js"
+    "static/js/main.c0c7277a.js"
   ]
 }
