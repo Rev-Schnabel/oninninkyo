@@ -35,30 +35,34 @@ export const Introducer: React.FC<Props> = (props: Props) => {
                 <React.Fragment>
                   <Grid container>
                     <Grid item xs={12} sm={4}>
-                      <Box sx={{ whiteSpace: 'pre', overflow: 'auto' }}>
-                        <br />{p.face}
+                      <Box sx={{ whiteSpace: 'pre', overflow: 'auto', m: 1 }}>
+                        {p.face}
                       </Box>
                     </Grid>
                       <Grid item xs={12} sm={8}>
-                        <Typography
-                          sx={{ display: 'inline' }}
-                          component="span"
-                          variant="body2"
-                          color="text.primary"
-                        >
-                          <br />{props.dateName}: <a style={{ textDecoration: "none" }} href={p.apprenticeshipDateUrl}>{p.apprenticeshipDate}</a><br />
-                        </Typography>
-                        {p.pastorInaugurationDate && 
+                        <Box sx={{ m: 1 }}>
                           <Typography
                             sx={{ display: 'inline' }}
                             component="span"
                             variant="body2"
                             color="text.primary"
                           >
-                            牧師就任日: <a style={{ textDecoration: "none" }} href={p.pastorInaugurationDateUrl}>{p.pastorInaugurationDate}</a><br />
+                            {props.dateName}: <a style={{ textDecoration: "none" }} href={p.apprenticeshipDateUrl}>{p.apprenticeshipDate}</a><br />
                           </Typography>
-                        }
-                        <br />{p.description}
+                          {p.pastorInaugurationDate && 
+                            <Typography
+                              sx={{ display: 'inline' }}
+                              component="span"
+                              variant="body2"
+                              color="text.primary"
+                            >
+                              牧師就任日: <a style={{ textDecoration: "none" }} href={p.pastorInaugurationDateUrl}>{p.pastorInaugurationDate}</a><br />
+                            </Typography>
+                          }
+                        </Box>
+                        <Box sx={{m: 1}} >
+                          {p.description}
+                        </Box>
                       </Grid>
                     </Grid>
                   <Divider variant="middle" sx={{ m: 1 }}/>
