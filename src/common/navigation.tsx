@@ -20,6 +20,7 @@ const pages: string[] = [
   "about",
   "founder",
   "oninninian",
+  "store",
   "archive"
 ];
 
