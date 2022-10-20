@@ -275,7 +275,7 @@ export const otherPeople: People[] = [
     apprenticeshipDateUrl: "https://jbbs.shitaraba.net/bbs/read.cgi/study/12015/1363951037/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
-    description: "魑魅魍魎のような外見をしており、自由な振る舞いをしている。時折おにんにん総帥に無礼な物言いをすることもあるが、大事には至らない、道化のような存在。",
+    description: "魑魅魍魎のような外見をしており、自由な振る舞いをしている。時折おにんにん総帥に無礼な物言いをすることもあるが、追い出されることは無く、道化のような存在。",
   },
   {
     name: "ツンドリー ◆DoAsSEEYd.",
