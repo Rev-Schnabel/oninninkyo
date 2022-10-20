@@ -152,7 +152,7 @@ export const otherPeople: People[] = [
   {
     name: "おにんにん教第13課イグニス / おにんにん教第十三課イグニス",
     face: "（　＾ω＾）",
-    apprenticeshipDate: "",
+    apprenticeshipDate: "2012/02/10 16:26:39",
     apprenticeshipDateUrl: "https://uni.5ch.net/test/read.cgi/psy/1327750781/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
@@ -161,26 +161,36 @@ export const otherPeople: People[] = [
   {
     name: "アスース",
     face: "（　＾ω＾）",
-    apprenticeshipDate: "",
+    apprenticeshipDate: "2012/10/06 21:41:01",
     apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1349027051/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
     description: "現在鍵垢となっているおにんにん教の Twitter アカウント管理者。おにんにん総帥や弟子達の名言を呟く bot を運用していた。",
   },
   {
-    name: "ディオトドス",
+    name: "ディオドトス",
     face: "（　＾ω＾）",
-    apprenticeshipDate: "",
-    apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1349027051/",
+    apprenticeshipDate: "2012/09/26 20:31:39",
+    apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1346823121/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
-    description: "現在鍵垢となっているおにんにん教の Twitter アカウント副管理者。おにんにん総帥や弟子達の名言を呟く bot を運用していた。",
+    description: "現在鍵垢となっているおにんにん教の Twitter アカウント副管理者。おにんにん総帥や弟子達の名言を呟く bot を運用していた。表記揺れがあるが「ディオトドス」ではなく「ディオドトス」が正しい模様。",
   },
   {
     name: "ヘルネスエス",
-    face: "（　＾ω＾）",
-    apprenticeshipDate: "",
-    apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1349027051/",
+    face: `
+（　＾ω＾）
+
+金色の調べは輝ける世界の旋律
+その音を奏でるはおにんにん教他になく
+信者達のソプラノは水晶よりも清らかに、
+弟子達のアルトは紺碧の空よりも澄み渡り、
+牧師達のテノールは海よりも大らかで美しく、
+総帥のバスは連なる白銀の山々よりも荘厳で力強く、
+その紡がれた旋律は三千世界に響き渡るだろう
+    `,
+    apprenticeshipDate: "2012/08/21 21:53:02",
+    apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1344859490/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
     description: "時折、予言めいた詩のような文章を綴ってゆく人物。おにんにん総帥からの絶賛を受けた。",
@@ -199,7 +209,7 @@ export const otherPeople: People[] = [
 　　　　ヽ、　　　　　　　　　｀´　 ｀´　　　 ........::..::..::.::::::::/　
 　　　　　 ＼......,,,,,,,_ 　　　　　　　　 　.....:::::::::::::::::::::::::／    
     `,
-    apprenticeshipDate: "",
+    apprenticeshipDate: "2012/10/21 06:39:18",
     apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1349027051/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
@@ -207,12 +217,27 @@ export const otherPeople: People[] = [
   },
   {
     name: "フランチェスカ・ニコトロール",
-    face: "（　＾ω＾）",
-    apprenticeshipDate: "",
-    apprenticeshipDateUrl: "",
+    face: `
+（　＾ω＾）【白き虚無】
+（　＾ω＾）【深淵の処断者】
+（　＾ω＾）【深淵の鎮魂歌】
+（　＾ω＾）【死の天使】
+（　＾ω＾）【光の戦士】
+    `,
+    apprenticeshipDate: "2014/03/26 23:11:08",
+    apprenticeshipDateUrl: "https://mastiff.5ch.net/test/read.cgi/siberia/1395630708/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
-    description: "",
+    description: "神殿への初登場後、彼女？を知っていた信徒から、おにんにん教国総帥護衛騎士団の先鋭中の先鋭「羽馬の月光騎士団 」の団長にして十三課イグニスにも顔が利く通称「深淵の騎士」という伝説級の人物であることが判明した。その後も偶に神殿に訪れており、おにんにん教 Twitter アカウントの閉鎖に向けて尽力した。その後、騎士団上がりで現在は十三課イグニスに所属していたことが判明。なお定期的に二つ名を変更している模様。",
+  },
+  {
+    name: "十三課ベテラン諜報員・黯然の黒眼鏡のヨハネス",
+    face: "（　●ω●）",
+    apprenticeshipDate: "2021/10/01 07:30:17",
+    apprenticeshipDateUrl: "https://jbbs.shitaraba.net/bbs/read.cgi/study/12015/1363951037/",
+    pastorInaugurationDate: "",
+    pastorInaugurationDateUrl: "",
+    description: "ベテラン諜報員とのことだが、いきなりフランチェスカに叱責されていた。ディオニュソス牧師の行方を捜索している。四国のひろめ市場にてディオニュソス牧師を見かけたとの情報から、四国に飛んだ。フランチェスカとのやりとりから、お土産や高級ワインを経費で購入しているらしいことが発覚してしまった。",
   },
   {
     name: "万歳",
@@ -237,8 +262,8 @@ export const otherPeople: People[] = [
     　　　　　　|　; 　} 　　　　 ￣￣　　　　　　　　　　　　　￣￣￣　　　 　　　|　l　 |
     　　　　　　.!　　/　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 ヾ　　|    
     `,
-    apprenticeshipDate: "",
-    apprenticeshipDateUrl: "",
+    apprenticeshipDate: "2012/01/28 22:14:45",
+    apprenticeshipDateUrl: "https://uni.5ch.net/test/read.cgi/psy/1327750781/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
     description: "当初は誰から見ても邪悪で醜悪な魑魅魍魎に過ぎなかったが、自我がほとんど確認できないにも関わらずおにんにん総帥を崇拝している様子で、そのおにんにん総帥を慕う心根だけは本物であった。その姿に同情したおにんにん総帥から慈悲を与えられ徐々に人格が形成され始め、最終的には哲学者の様相を帯びるまでに至り、己の存在を問う旅に出た。魑魅魍魎から脱し、信徒として認められた数奇なる者である。",
@@ -246,20 +271,20 @@ export const otherPeople: People[] = [
   {
     name: "草爺 / 草じぃ",
     face: "（　＾＾）ω",
-    apprenticeshipDate: "",
-    apprenticeshipDateUrl: "",
+    apprenticeshipDate: "2015/12/31 10:51:31",
+    apprenticeshipDateUrl: "https://jbbs.shitaraba.net/bbs/read.cgi/study/12015/1363951037/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
-    description: "",
+    description: "魑魅魍魎のような外見をしており、自由な振る舞いをしている。時折おにんにん総帥に無礼な物言いをすることもあるが、追い出されることは無く、道化のような存在。",
   },
   {
     name: "ツンドリー ◆DoAsSEEYd.",
     face: "(ヾ'ω`)",
-    apprenticeshipDate: "",
-    apprenticeshipDateUrl: "",
+    apprenticeshipDate: "2013/01/26 21:30:58",
+    apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1356692122",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
-    description: "",
+    description: "2013/01/26 21:30:58 以前も神殿を訪れていた可能性があるが、名前をつけ始めたのは 2013/01/26 21:30:58。おにんにん教を馬鹿にするような言動を繰り返していたが、改心した様子があった。おにんにん総帥の徳の高さが垣間見える。",
   },
   {
     name: "あにじゃ",
@@ -272,20 +297,29 @@ export const otherPeople: People[] = [
 　　　 ▲ 　　　　　　　　
 """~""""""~"""~    
     `,
-    apprenticeshipDate: "",
-    apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1373900023/",
+    apprenticeshipDate: "2012/10/27 19:15:38",
+    apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1349027051/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
-    description: "幽霊のような姿をしている。当初は挑戦的な物言いで反おにんにん教の魑魅魍魎と思われたが、時折鋭い意見を発する等、侮れない存在。",
+    description: "幽霊のような姿をしている。本格的に神殿へ参拝しに来るようになったのは ★23 から。当初は挑戦的な物言いで反おにんにん教の魑魅魍魎と思われたが、時折鋭い意見を発する等、侮れない存在。",
   },
   {
     name: "ぽれ",
     face: "（　´ω｀）",
-    apprenticeshipDate: "",
-    apprenticeshipDateUrl: "",
+    apprenticeshipDate: "2014/02/23 01:36:47",
+    apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1387686882/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
-    description: "",
+    description: "初めて神殿を訪れた日ははっきりしないが、ぽれという一人称と （　´ω｀） という表情が重なった日が 2014/02/23 01:36:47 となる。東京の一等地の豪邸に住む。資産家の孫でフォアグラを食べる毎日。しかし飾らない嫌味のない性格で「ぽれくん」とおにんにん総帥や信徒達から親しまれている。",
+  },
+  {
+    name: "ゼブラエヴナ・コアンガリア・ガ・フェルナゼア",
+    face: "（　＾ω＾）",
+    apprenticeshipDate: "2015/03/25 19:43:35",
+    apprenticeshipDateUrl: "https://mastiff.5ch.net/test/read.cgi/siberia/1411492634/",
+    pastorInaugurationDate: "",
+    pastorInaugurationDateUrl: "",
+    description: "愚者に対し容赦のない行動をとる狂信者。その後彼？彼女？知る信者から、たったの一振りの剣で 1000 体もの魑魅魍魎を断罪し、「黄泉からの断罪者」の二つ名を持ち、羽馬の月光騎士団のフランチェスカ・ニコトロールと共に伝説の騎士と称される人物であることが判明した。その神をも脅かす強大過ぎる力ゆえおにんにん教騎士団を追放され、十三課イグニスによって消されたと噂されていたらしい。",
   },
 ];
 
@@ -310,7 +344,7 @@ export const evilSpirits: People[] = [
 　　　　　　　　　/ |＼.＼　
 　　　　　　　　　し' 　￣    
     `,
-    apprenticeshipDate: "",
+    apprenticeshipDate: "2012/01/10 21:00:36",
     apprenticeshipDateUrl: "https://uni.5ch.net/test/read.cgi/psy/1325761010/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
@@ -332,7 +366,7 @@ export const evilSpirits: People[] = [
 　　　／　＾ω＾　＾ω＾）＾ω＾（　＾ω＾）（　＾ω＾）　　　　　　　　　　　　　
 　　　(,,,,ﾉ（　｝(,,ﾉ(,,,ﾉ｛　）(,,,,ﾉ（　｝(,,ﾉ(,,,,ﾉ(,,,,ﾉ    
     `,
-    apprenticeshipDate: "",
+    apprenticeshipDate: "2012/01/10 22:49:36",
     apprenticeshipDateUrl: "https://uni.5ch.net/test/read.cgi/psy/1325761010/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
@@ -371,64 +405,92 @@ export const evilSpirits: People[] = [
 ((　（__ノ　　)　）　（　(　　　)　）　 （　(　　　)　）　（　(
 　　　　　 （__ノ　　(＿）　（__ノ　　 (＿）　 （__ノ　　(＿）
     `,
-    apprenticeshipDate: "",
-    apprenticeshipDateUrl: "",
+    apprenticeshipDate: "2012/01/30 19:48:44",
+    apprenticeshipDateUrl: "https://uni.5ch.net/test/read.cgi/psy/1327750781/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
     description: "弟子となることを希望しながらもミレイユに執拗なセクハラまがいの発言をする等、碌でもない人物。十三課イグニスによって即刻処断されかけるも、反省の様子を見せたためおにんにん総帥から慈悲を与えられた。しかし、再度問題行動を起こしおにんにん総帥の慈悲を仇で返した。その後遠くアラスカの地にてイグニス牧師とシャマールへの一方的な逆恨みから異形の姿に堕ち、災厄を撒き散らした。その爪痕は愚物は決して矯正することがないという逸話として残されている。",
   },
   {
-    name: "ナータランジャナム",
+    name: "ナータランジャナム ◆yW94HFf5mo",
     face: "（　＾ω＾）",
-    apprenticeshipDate: "",
-    apprenticeshipDateUrl: "",
+    apprenticeshipDate: "2012/06/29 11:19:15",
+    apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1336240072/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
-    description: "",
+    description: "善良な信徒を装いながら突然凶行に走る魑魅魍魎。偽りの神殿を立てるなど、悪行を尽くした。魑魅魍魎の中ではナータランジャナムを崇拝するものがいるようなので、邪教の神なのかもしれない…。おにんにん教内では最も危険な魑魅魍魎の一つに数えられている。",
   },
   {
     name: "オーウェン閣下 ◆CjxINalPTQ",
     face: "（　＾ω＾）",
-    apprenticeshipDate: "",
-    apprenticeshipDateUrl: "",
+    apprenticeshipDate: "2013/02/02 12:40:59",
+    apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1359776314/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
-    description: "",
+    description: "よく雑談している。魑魅魍魎なのか微妙なラインだったが、おにんにん教に敵対する発言を行なっていた。",
   },
   {
     name: "タンザニア岡本",
     face: "（　＾ω＾）",
-    apprenticeshipDate: "",
-    apprenticeshipDateUrl: "",
+    apprenticeshipDate: "2012/03/19(月) 02:06:26",
+    apprenticeshipDateUrl: "https://uni.5ch.net/test/read.cgi/psy/1330833067/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
-    description: "",
+    description: "熱心に祈る姿を見せたも束の間、おにんにん総帥に不敬を働くなど、魑魅魍魎の片鱗を見せた。シベリアの地にてディオニュソス牧師と IP 被りが発生し、ディオニュソス牧師があらぬ疑いを受けた事件の関係者としておにんにん教内では最も危険な魑魅魍魎の一つに数えられている。",
   },
   {
     name: "ソクラテス鬼塚",
     face: "┌(＾ ω＾)┘",
-    apprenticeshipDate: "",
-    apprenticeshipDateUrl: "",
+    apprenticeshipDate: "2012/06/15 17:49:39",
+    apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1336240072/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
-    description: "",
+    description: "その見た目の通り、カサカサと神殿内を走り回る魑魅魍魎。下品な発言ばかりしており、おにんにん教の信徒達を疲弊させた。",
   },
   {
-    name: "イマラーン",
+    name: "イラマーン / イマラーン",
     face: "（　＾ω＾）",
-    apprenticeshipDate: "",
-    apprenticeshipDateUrl: "",
+    apprenticeshipDate: "2012/07/23 22:11:24",
+    apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1341138609/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
-    description: "",
+    description: "下品な発言ばかりする魑魅魍魎。おにんにん総帥を辟易させた。",
   },
   {
-    name: "クロノス / スパークリングゾマホン",
-    face: "（　＾ω＾）",
-    apprenticeshipDate: "",
-    apprenticeshipDateUrl: "",
+    name: "クロノス / スパークリングゾマホン ◆gFDxw60p.I",
+    face: "┏( ┓＾ω＾)┓",
+    apprenticeshipDate: "2012/07/12 23:32:07",
+    apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1341138609/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
-    description: "",
+    description: "当初はクロノスと名乗っていたが、スプランクニゾマイが弟子入りした際に勝手におにんにん総帥から洗礼名を与えられたと宣言し、スパークリングゾマホンに改名した。下品な発言や暴言を繰り返す魑魅魍魎。",
+  },
+  {
+    name: "ﾆｭﾜｷﾞﾝ",
+    face: `
+（　＾ω＾）
+　|　　|
+　|　　|
+　∪￣∪
+    `,
+    apprenticeshipDate: "2012/10/29 12:33:02",
+    apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1349027051/",
+    pastorInaugurationDate: "",
+    pastorInaugurationDateUrl: "",
+    description: "下品な発言ばかりする魑魅魍魎。いつも自分の欲望を垂れ流している愚者。シベリア内藤スレも荒らしておりその際おにんにん総帥が対話を試みたが、もはや救うことは叶わなかった。ﾐﾝｷｸとの繋がりも疑われている危険な魑魅魍魎。"
+  },
+  {
+    name: "菊内藤",
+    face: `
+_/ﾐﾝｷｸ＼
+(＊^ω^ )　ﾐﾝｷｸの極み
+（ つ⌒∩ヽ
+　ヽ_つωつ
+    `,
+    apprenticeshipDate: "2012/01/23 09:22:07",
+    apprenticeshipDateUrl: "https://uni.5ch.net/test/read.cgi/psy/1325761010/",
+    pastorInaugurationDate: "",
+    pastorInaugurationDateUrl: "",
+    description: "人々を堕落に導くﾐﾝｷｸ教の魑魅魍魎。ノトスをﾐﾝｷｸに堕とした張本人。おにんにん教内では最も危険な魑魅魍魎の一つに数えられている。"
   },
 ];
