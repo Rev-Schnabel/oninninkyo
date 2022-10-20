@@ -161,7 +161,7 @@ export const otherPeople: People[] = [
   {
     name: "アスース",
     face: "（　＾ω＾）",
-    apprenticeshipDate: "",
+    apprenticeshipDate: "2012/10/06 21:41:01",
     apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1349027051/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
