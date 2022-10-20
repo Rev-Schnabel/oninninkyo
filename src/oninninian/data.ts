@@ -179,8 +179,8 @@ export const otherPeople: People[] = [
   {
     name: "ヘルネスエス",
     face: "（　＾ω＾）",
-    apprenticeshipDate: "",
-    apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1349027051/",
+    apprenticeshipDate: "2012/08/21 21:53:02",
+    apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1344859490/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
     description: "時折、予言めいた詩のような文章を綴ってゆく人物。おにんにん総帥からの絶賛を受けた。",
