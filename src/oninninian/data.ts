@@ -207,12 +207,27 @@ export const otherPeople: People[] = [
   },
   {
     name: "フランチェスカ・ニコトロール",
-    face: "（　＾ω＾）",
-    apprenticeshipDate: "",
-    apprenticeshipDateUrl: "",
+    face: `
+（　＾ω＾）【白き虚無】
+（　＾ω＾）【深淵の処断者】
+（　＾ω＾）【深淵の鎮魂歌】
+（　＾ω＾）【死の天使】
+（　＾ω＾）【光の戦士】
+    `,
+    apprenticeshipDate: "2014/03/26 23:11:08",
+    apprenticeshipDateUrl: "https://mastiff.5ch.net/test/read.cgi/siberia/1395630708/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
-    description: "",
+    description: "神殿への初登場後、彼女？を知っていた信徒から、おにんにん教国総帥護衛騎士団の先鋭中の先鋭「羽馬の月光騎士団 」の団長にして十三課イグニスにも顔が利く通称「深淵の騎士」という伝説級の人物であることが判明した。その後も偶に神殿に訪れており、おにんにん教 Twitter アカウントの閉鎖に向けて尽力した。その後、騎士団上がりで現在は十三課イグニスに所属していたことが判明。なお定期的に二つ名を変更している模様。",
+  },
+  {
+    name: "十三課ベテラン諜報員・黯然の黒眼鏡のヨハネス",
+    face: "（　●ω●",
+    apprenticeshipDate: "2021/10/01 07:30:17",
+    apprenticeshipDateUrl: "https://jbbs.shitaraba.net/bbs/read.cgi/study/12015/1363951037/",
+    pastorInaugurationDate: "",
+    pastorInaugurationDateUrl: "",
+    description: "ベテラン諜報員とのことだが、いきなりフランチェスカに叱責された。ディオニュソス牧師の行方を捜索している。四国のひろめ市場にてディオニュソス牧師を見かけたとの情報から、四国に飛んだ。フランチェスカとのやりとりから、お土産や高級ワインを経費で購入しているらしいことが発覚してしまった。",
   },
   {
     name: "万歳",
