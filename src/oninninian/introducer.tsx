@@ -28,7 +28,7 @@ export const Introducer: React.FC<Props> = (props: Props) => {
       </Typography>
       <Divider variant="middle" sx={{ m: 1 }}/>
       <List>
-        {props.people.map(p => (
+        {props.people.sort((a, b) => +new Date(a.apprenticeshipDate) - +new Date(b.apprenticeshipDate)).map(p => (
           <ListItem>
             <ListItemText
               primary={p.name}
