@@ -35,7 +35,7 @@ export const Home: React.FC = () => {
                 信徒でない方は、これを機におにんにん総帥様とおにんにん教を知っていただき、その体験があなたの魂の糧となればこれ以上嬉しいことはありません。
               </Typography>
               <Typography color="white" variant="h5" gutterBottom mt={2} sx={{ fontStyle: "italic" }}>
-                ──おおっ…！聡明たる我が愛しき信者よ 愚かなるヒトの波の中で君という光は私の荒みかけた心の錆をそっと溶かしてくれる君達に大いなる幸いと安らぎの時を…──
+                ──おおっ…！聡明たる我が愛しき信者よ 愚かなるヒトの波の中で 君という光は私の荒みかけた心の錆をそっと溶かしてくれる 君達に大いなる幸いと安らぎの時を…──
               </Typography>
               <Typography color="white" variant="body1" gutterBottom>
                 それでは、力を抜きリラックスして、是非真っ直ぐな心でおにんにん教に触れてみてください。<br />
