@@ -312,6 +312,15 @@ export const otherPeople: People[] = [
     pastorInaugurationDateUrl: "",
     description: "初めて神殿を訪れた日ははっきりしないが、ぽれという一人称と （　´ω｀） という表情が重なった日が 2014/02/23 01:36:47 となる。東京の一等地の豪邸に住む。資産家の孫でフォアグラを食べる毎日。しかし飾らない嫌味のない性格で「ぽれくん」とおにんにん総帥や信徒達から親しまれている。",
   },
+  {
+    name: "ゼブラエヴナ・コアンガリア・ガ・フェルナゼア",
+    face: "（　＾ω＾）",
+    apprenticeshipDate: "2015/03/25 19:43:35",
+    apprenticeshipDateUrl: "https://mastiff.5ch.net/test/read.cgi/siberia/1411492634/",
+    pastorInaugurationDate: "",
+    pastorInaugurationDateUrl: "",
+    description: "愚者に対し容赦のない行動をとる狂信者。その後彼？彼女？知る信者から、たったの一振りの剣で 1000 体もの魑魅魍魎を断罪し、「黄泉からの断罪者」の二つ名を持ち、羽馬の月光騎士団のフランチェスカ・ニコトロールと共に伝説の騎士と称される人物であることが判明した。その神をも脅かす強大過ぎる力ゆえおにんにん教騎士団を追放され、十三課イグニスによって消されたと噂されていたらしい。",
+  },
 ];
 
 export const evilSpirits: People[] = [
