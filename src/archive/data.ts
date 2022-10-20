@@ -115,4 +115,9 @@ export const archive: Archive[] = [
     title: "【おにんにん総帥】（　＾ω＾）おにんにん教★26",
     url: "https://mastiff.5ch.net/test/read.cgi/siberia/1411492634/",
   },
+  {
+    title: "【おにんにん総帥】（　＾ω＾）おにんにん教★27",
+    url: "https://mastiff.5ch.net/test/read.cgi/siberia/1442207814/",
+    description: "✖️ 魑魅魍魎によって建てられた偽りの神殿",
+  },
 ]
