@@ -284,7 +284,7 @@ export const otherPeople: People[] = [
     apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1356692122",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
-    description: "2013/01/26 21:30:58 以前も神殿を訪れていた可能性があるが、名前をつけ始めたのは 2013/01/26 21:30:58。おにんにん教を馬鹿にするような言動を繰り返していたが、改心する様子があった。おにんにん総帥の徳の高さが垣間見える。",
+    description: "2013/01/26 21:30:58 以前も神殿を訪れていた可能性があるが、名前をつけ始めたのは 2013/01/26 21:30:58。おにんにん教を馬鹿にするような言動を繰り返していたが、改心した様子があった。おにんにん総帥の徳の高さが垣間見える。",
   },
   {
     name: "あにじゃ",
