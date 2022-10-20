@@ -270,11 +270,11 @@ export const otherPeople: People[] = [
   {
     name: "ツンドリー ◆DoAsSEEYd.",
     face: "(ヾ'ω`)",
-    apprenticeshipDate: "",
-    apprenticeshipDateUrl: "",
+    apprenticeshipDate: "2013/01/26 21:30:58",
+    apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1356692122",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
-    description: "",
+    description: "2013/01/26 21:30:58 以前も神殿を訪れていた可能性があるが、名前をつけ始めたのは 2013/01/26 21:30:58。おにんにん教を馬鹿にするような言動を繰り返していたが、改心する様子があった。おにんにん総帥の徳の高さが垣間見える。",
   },
   {
     name: "あにじゃ",
@@ -296,11 +296,11 @@ export const otherPeople: People[] = [
   {
     name: "ぽれ",
     face: "（　´ω｀）",
-    apprenticeshipDate: "",
-    apprenticeshipDateUrl: "",
+    apprenticeshipDate: "2014/02/23 01:36:47",
+    apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1387686882/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
-    description: "",
+    description: "初めて神殿を訪れた日ははっきりしないが、ぽれという一人称と （　´ω｀） という表情が重なった日が 2014/02/23 01:36:47 となる。東京の一等地の豪邸に住む。資産家の孫でフォアグラを食べる毎日。しかし飾らない嫌味のない性格で「ぽれくん」とおにんにん総帥や信徒達から親しまれている。",
   },
 ];
 
