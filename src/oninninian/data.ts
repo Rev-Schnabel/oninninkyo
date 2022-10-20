@@ -252,8 +252,8 @@ export const otherPeople: People[] = [
     　　　　　　|　; 　} 　　　　 ￣￣　　　　　　　　　　　　　￣￣￣　　　 　　　|　l　 |
     　　　　　　.!　　/　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 ヾ　　|    
     `,
-    apprenticeshipDate: "",
-    apprenticeshipDateUrl: "",
+    apprenticeshipDate: "2012/01/28 22:14:45",
+    apprenticeshipDateUrl: "https://uni.5ch.net/test/read.cgi/psy/1327750781/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
     description: "当初は誰から見ても邪悪で醜悪な魑魅魍魎に過ぎなかったが、自我がほとんど確認できないにも関わらずおにんにん総帥を崇拝している様子で、そのおにんにん総帥を慕う心根だけは本物であった。その姿に同情したおにんにん総帥から慈悲を与えられ徐々に人格が形成され始め、最終的には哲学者の様相を帯びるまでに至り、己の存在を問う旅に出た。魑魅魍魎から脱し、信徒として認められた数奇なる者である。",
