@@ -178,7 +178,17 @@ export const otherPeople: People[] = [
   },
   {
     name: "ヘルネスエス",
-    face: "（　＾ω＾）",
+    face: `
+（　＾ω＾）
+
+金色の調べは輝ける世界の旋律
+その音を奏でるはおにんにん教他になく
+信者達のソプラノは水晶よりも清らかに、
+弟子達のアルトは紺碧の空よりも澄み渡り、
+牧師達のテノールは海よりも大らかで美しく、
+総帥のバスは連なる白銀の山々よりも荘厳で力強く、
+その紡がれた旋律は三千世界に響き渡るだろう
+    `,
     apprenticeshipDate: "2012/08/21 21:53:02",
     apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1344859490/",
     pastorInaugurationDate: "",
