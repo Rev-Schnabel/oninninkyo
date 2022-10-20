@@ -261,11 +261,11 @@ export const otherPeople: People[] = [
   {
     name: "草爺 / 草じぃ",
     face: "（　＾＾）ω",
-    apprenticeshipDate: "",
-    apprenticeshipDateUrl: "",
+    apprenticeshipDate: "2015/12/31 10:51:31",
+    apprenticeshipDateUrl: "https://jbbs.shitaraba.net/bbs/read.cgi/study/12015/1363951037/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
-    description: "",
+    description: "魑魅魍魎のような外見をしており、自由な振る舞いをしている。時折おにんにん総帥に無礼な物言いをすることもあるが、大事には至らない、道化のような存在。",
   },
   {
     name: "ツンドリー ◆DoAsSEEYd.",
@@ -287,11 +287,11 @@ export const otherPeople: People[] = [
 　　　 ▲ 　　　　　　　　
 """~""""""~"""~    
     `,
-    apprenticeshipDate: "",
-    apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1373900023/",
+    apprenticeshipDate: "2012/10/27 19:15:38",
+    apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1349027051/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
-    description: "幽霊のような姿をしている。当初は挑戦的な物言いで反おにんにん教の魑魅魍魎と思われたが、時折鋭い意見を発する等、侮れない存在。",
+    description: "幽霊のような姿をしている。本格的に神殿へ参拝しに来るようになったのは ★23 から。当初は挑戦的な物言いで反おにんにん教の魑魅魍魎と思われたが、時折鋭い意見を発する等、侮れない存在。",
   },
   {
     name: "ぽれ",
