@@ -8,7 +8,8 @@ import {
   List,
   ListItem,
   ListItemText,
-  Grid
+  Grid,
+  Link
 } from "@mui/material";
 
 import { People } from "./types";
@@ -47,7 +48,7 @@ export const Introducer: React.FC<Props> = (props: Props) => {
                             variant="body2"
                             color="text.primary"
                           >
-                            {props.dateName}: <a style={{ textDecoration: "none" }} href={p.apprenticeshipDateUrl}>{p.apprenticeshipDate}</a><br />
+                            {props.dateName}: <Link style={{ textDecoration: "none" }} href={p.apprenticeshipDateUrl}>{p.apprenticeshipDate}</Link><br />
                           </Typography>
                           {p.pastorInaugurationDate && 
                             <Typography
@@ -56,7 +57,7 @@ export const Introducer: React.FC<Props> = (props: Props) => {
                               variant="body2"
                               color="text.primary"
                             >
-                              牧師就任日: <a style={{ textDecoration: "none" }} href={p.pastorInaugurationDateUrl}>{p.pastorInaugurationDate}</a><br />
+                              牧師就任日: <Link style={{ textDecoration: "none" }} href={p.pastorInaugurationDateUrl}>{p.pastorInaugurationDate}</Link><br />
                             </Typography>
                           }
                         </Box>
