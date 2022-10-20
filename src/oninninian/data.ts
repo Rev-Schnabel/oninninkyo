@@ -168,13 +168,13 @@ export const otherPeople: People[] = [
     description: "現在鍵垢となっているおにんにん教の Twitter アカウント管理者。おにんにん総帥や弟子達の名言を呟く bot を運用していた。",
   },
   {
-    name: "ディオトドス",
+    name: "ディオドトス",
     face: "（　＾ω＾）",
-    apprenticeshipDate: "",
-    apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1349027051/",
+    apprenticeshipDate: "2012/09/26 20:31:39",
+    apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1346823121/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
-    description: "現在鍵垢となっているおにんにん教の Twitter アカウント副管理者。おにんにん総帥や弟子達の名言を呟く bot を運用していた。",
+    description: "現在鍵垢となっているおにんにん教の Twitter アカウント副管理者。おにんにん総帥や弟子達の名言を呟く bot を運用していた。表記揺れがあるが「ディオトドス」ではなく「ディオドトス」が正しい模様。",
   },
   {
     name: "ヘルネスエス",
