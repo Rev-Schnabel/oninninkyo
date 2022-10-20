@@ -310,7 +310,7 @@ export const otherPeople: People[] = [
     apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1387686882/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
-    description: "初めて神殿を訪れた日ははっきりしないが、ぽれという一人称と （　´ω｀） という表情が重なった日が 2014/02/23 01:36:47 となる。東京の一等地の豪邸に住む。資産家の孫でフォアグラを食べる毎日。しかし飾らない嫌味のない性格で「ぽれくん」とおにんにん総帥や信徒達から親しまれている。",
+    description: "初めて神殿を訪れた日ははっきりしないが、ぽれという一人称と （　´ω｀） という表情が重なった日が 2014/02/23 01:36:47 となる。しかしこれは昔のぽれで、現在のぽれとは別人。現在のぽれは 2017 年からおにんにん教神殿へ通い始めた。現在のぽれは東京の一等地の豪邸に住む。資産家の孫でフォアグラを食べる毎日。しかし飾らない嫌味のない性格で「ぽれくん」とおにんにん総帥や信徒達から親しまれている。",
   },
   {
     name: "ゼブラエヴナ・コアンガリア・ガ・フェルナゼア",
@@ -320,6 +320,15 @@ export const otherPeople: People[] = [
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
     description: "愚者に対し容赦のない行動をとる狂信者。その後彼？彼女？知る信者から、たったの一振りの剣で 1000 体もの魑魅魍魎を断罪し、「黄泉からの断罪者」の二つ名を持ち、羽馬の月光騎士団のフランチェスカ・ニコトロールと共に伝説の騎士と称される人物であることが判明した。その神をも脅かす強大過ぎる力ゆえおにんにん教騎士団を追放され、十三課イグニスによって消されたと噂されていたらしい。",
+  },
+  {
+    name: "おにん ◆nuVQpseqXM / あらまき ◆nuVQpseqXM",
+    face: "（　＾ω＾）",
+    apprenticeshipDate: "2022/09/29(木) 10:01:40",
+    apprenticeshipDateUrl: "https://jbbs.shitaraba.net/bbs/read.cgi/study/12015/1363951037/",
+    pastorInaugurationDate: "",
+    pastorInaugurationDateUrl: "",
+    description: "およそ 2 週間かけて全てのおにんにん教神殿を巡礼した猛者。初めての神殿への投稿を以て当初はおにんと名乗ったが、不敬かもしれないと懸念しあらまきに改名した思慮深い信徒。",
   },
 ];
 
