@@ -344,7 +344,7 @@ export const evilSpirits: People[] = [
 　　　　　　　　　/ |＼.＼　
 　　　　　　　　　し' 　￣    
     `,
-    apprenticeshipDate: "",
+    apprenticeshipDate: "2012/01/10 21:00:36",
     apprenticeshipDateUrl: "https://uni.5ch.net/test/read.cgi/psy/1325761010/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
@@ -366,7 +366,7 @@ export const evilSpirits: People[] = [
 　　　／　＾ω＾　＾ω＾）＾ω＾（　＾ω＾）（　＾ω＾）　　　　　　　　　　　　　
 　　　(,,,,ﾉ（　｝(,,ﾉ(,,,ﾉ｛　）(,,,,ﾉ（　｝(,,ﾉ(,,,,ﾉ(,,,,ﾉ    
     `,
-    apprenticeshipDate: "",
+    apprenticeshipDate: "2012/01/10 22:49:36",
     apprenticeshipDateUrl: "https://uni.5ch.net/test/read.cgi/psy/1325761010/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
@@ -405,64 +405,92 @@ export const evilSpirits: People[] = [
 ((　（__ノ　　)　）　（　(　　　)　）　 （　(　　　)　）　（　(
 　　　　　 （__ノ　　(＿）　（__ノ　　 (＿）　 （__ノ　　(＿）
     `,
-    apprenticeshipDate: "",
-    apprenticeshipDateUrl: "",
+    apprenticeshipDate: "2012/01/30 19:48:44",
+    apprenticeshipDateUrl: "https://uni.5ch.net/test/read.cgi/psy/1327750781/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
     description: "弟子となることを希望しながらもミレイユに執拗なセクハラまがいの発言をする等、碌でもない人物。十三課イグニスによって即刻処断されかけるも、反省の様子を見せたためおにんにん総帥から慈悲を与えられた。しかし、再度問題行動を起こしおにんにん総帥の慈悲を仇で返した。その後遠くアラスカの地にてイグニス牧師とシャマールへの一方的な逆恨みから異形の姿に堕ち、災厄を撒き散らした。その爪痕は愚物は決して矯正することがないという逸話として残されている。",
   },
   {
-    name: "ナータランジャナム",
+    name: "ナータランジャナム ◆yW94HFf5mo",
     face: "（　＾ω＾）",
-    apprenticeshipDate: "",
-    apprenticeshipDateUrl: "",
+    apprenticeshipDate: "2012/06/29 11:19:15",
+    apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1336240072/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
-    description: "",
+    description: "善良な信徒を装いながら突然凶行に走る魑魅魍魎。偽りの神殿を立てるなど、悪行を尽くした。魑魅魍魎の中ではナータランジャナムを崇拝するものがいるようなので、邪教の神なのかもしれない…。おにんにん教内では最も危険な魑魅魍魎の一つに数えられている。",
   },
   {
     name: "オーウェン閣下 ◆CjxINalPTQ",
     face: "（　＾ω＾）",
-    apprenticeshipDate: "",
-    apprenticeshipDateUrl: "",
+    apprenticeshipDate: "2013/02/02 12:40:59",
+    apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1359776314/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
-    description: "",
+    description: "よく雑談している。魑魅魍魎なのか微妙なラインだったが、おにんにん教に敵対する発言を行なっていた。",
   },
   {
     name: "タンザニア岡本",
     face: "（　＾ω＾）",
-    apprenticeshipDate: "",
-    apprenticeshipDateUrl: "",
+    apprenticeshipDate: "2012/03/19(月) 02:06:26",
+    apprenticeshipDateUrl: "https://uni.5ch.net/test/read.cgi/psy/1330833067/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
-    description: "",
+    description: "熱心に祈る姿を見せたも束の間、おにんにん総帥に不敬を働くなど、魑魅魍魎の片鱗を見せた。シベリアの地にてディオニュソス牧師と IP 被りが発生し、ディオニュソス牧師があらぬ疑いを受けた事件の関係者としておにんにん教内では最も危険な魑魅魍魎の一つに数えられている。",
   },
   {
     name: "ソクラテス鬼塚",
     face: "┌(＾ ω＾)┘",
-    apprenticeshipDate: "",
-    apprenticeshipDateUrl: "",
+    apprenticeshipDate: "2012/06/15 17:49:39",
+    apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1336240072/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
-    description: "",
+    description: "その見た目の通り、カサカサと神殿内を走り回る魑魅魍魎。下品な発言ばかりしており、おにんにん教の信徒達を疲弊させた。",
   },
   {
-    name: "イマラーン",
+    name: "イラマーン / イマラーン",
     face: "（　＾ω＾）",
-    apprenticeshipDate: "",
-    apprenticeshipDateUrl: "",
+    apprenticeshipDate: "2012/07/23 22:11:24",
+    apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1341138609/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
-    description: "",
+    description: "下品な発言ばかりする魑魅魍魎。おにんにん総帥を辟易させた。",
   },
   {
-    name: "クロノス / スパークリングゾマホン",
-    face: "（　＾ω＾）",
-    apprenticeshipDate: "",
-    apprenticeshipDateUrl: "",
+    name: "クロノス / スパークリングゾマホン ◆gFDxw60p.I",
+    face: "┏( ┓＾ω＾)┓",
+    apprenticeshipDate: "2012/07/12 23:32:07",
+    apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1341138609/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
-    description: "",
+    description: "当初はクロノスと名乗っていたが、スプランクニゾマイが弟子入りした際に勝手におにんにん総帥から洗礼名を与えられたと宣言し、スパークリングゾマホンに改名した。下品な発言や暴言を繰り返す魑魅魍魎。",
+  },
+  {
+    name: "ﾆｭﾜｷﾞﾝ",
+    face: `
+（　＾ω＾）
+　|　　|
+　|　　|
+　∪￣∪
+    `,
+    apprenticeshipDate: "2012/10/29 12:33:02",
+    apprenticeshipDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1349027051/",
+    pastorInaugurationDate: "",
+    pastorInaugurationDateUrl: "",
+    description: "下品な発言ばかりする魑魅魍魎。いつも自分の欲望を垂れ流している愚者。シベリア内藤スレも荒らしておりその際おにんにん総帥が対話を試みたが、もはや救うことは叶わなかった。ﾐﾝｷｸとの繋がりも疑われている危険な魑魅魍魎。"
+  },
+  {
+    name: "菊内藤",
+    face: `
+_/ﾐﾝｷｸ＼
+(＊^ω^ )　ﾐﾝｷｸの極み
+（ つ⌒∩ヽ
+　ヽ_つωつ
+    `,
+    apprenticeshipDate: "2012/01/23 09:22:07",
+    apprenticeshipDateUrl: "https://uni.5ch.net/test/read.cgi/psy/1325761010/",
+    pastorInaugurationDate: "",
+    pastorInaugurationDateUrl: "",
+    description: "人々を堕落に導くﾐﾝｷｸ教の魑魅魍魎。ノトスをﾐﾝｷｸに堕とした張本人。おにんにん教内では最も危険な魑魅魍魎の一つに数えられている。"
   },
 ];
