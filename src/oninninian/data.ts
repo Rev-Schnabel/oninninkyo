@@ -222,12 +222,12 @@ export const otherPeople: People[] = [
   },
   {
     name: "十三課ベテラン諜報員・黯然の黒眼鏡のヨハネス",
-    face: "（　●ω●",
+    face: "（　●ω●）",
     apprenticeshipDate: "2021/10/01 07:30:17",
     apprenticeshipDateUrl: "https://jbbs.shitaraba.net/bbs/read.cgi/study/12015/1363951037/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
-    description: "ベテラン諜報員とのことだが、いきなりフランチェスカに叱責された。ディオニュソス牧師の行方を捜索している。四国のひろめ市場にてディオニュソス牧師を見かけたとの情報から、四国に飛んだ。フランチェスカとのやりとりから、お土産や高級ワインを経費で購入しているらしいことが発覚してしまった。",
+    description: "ベテラン諜報員とのことだが、いきなりフランチェスカに叱責されていた。ディオニュソス牧師の行方を捜索している。四国のひろめ市場にてディオニュソス牧師を見かけたとの情報から、四国に飛んだ。フランチェスカとのやりとりから、お土産や高級ワインを経費で購入しているらしいことが発覚してしまった。",
   },
   {
     name: "万歳",
