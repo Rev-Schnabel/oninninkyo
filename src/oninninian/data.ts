@@ -324,7 +324,7 @@ export const otherPeople: People[] = [
   {
     name: "おにん ◆nuVQpseqXM / あらまき ◆nuVQpseqXM",
     face: "（　＾ω＾）",
-    apprenticeshipDate: "2022/09/29(木) 10:01:40",
+    apprenticeshipDate: "2022/09/29 10:01:40",
     apprenticeshipDateUrl: "https://jbbs.shitaraba.net/bbs/read.cgi/study/12015/1363951037/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
@@ -441,7 +441,7 @@ export const evilSpirits: People[] = [
   {
     name: "タンザニア岡本",
     face: "（　＾ω＾）",
-    apprenticeshipDate: "2012/03/19(月) 02:06:26",
+    apprenticeshipDate: "2012/03/19 02:06:26",
     apprenticeshipDateUrl: "https://uni.5ch.net/test/read.cgi/psy/1330833067/",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
