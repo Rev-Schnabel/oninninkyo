@@ -3,15 +3,12 @@ import React from "react";
 import {
   Timeline,
   TimelineItem,
+  timelineItemClasses,
   TimelineSeparator,
   TimelineConnector,
   TimelineContent,
   TimelineDot
 } from '@mui/lab';
-
-import TimelineOppositeContent, {
-  timelineOppositeContentClasses,
-} from '@mui/lab/TimelineOppositeContent';
 
 import { 
   Paper,
@@ -62,16 +59,14 @@ export const HistoryTimeline: React.FC = () => {
     <Paper elevation={3} sx={{ m: 2, p: 2}}>
       <Timeline
         sx={{
-          [`& .${timelineOppositeContentClasses.root}`]: {
-            flex: 0.2,
+          [`& .${timelineItemClasses.root}:before`]: {
+            flex: 0,
+            padding: 0,
           },
         }}
       >
         {history.sort((a, b) => +new Date(a.date) - +new Date(b.date)).map(h => (
           <TimelineItem key={h.date}>
-            <TimelineOppositeContent color="textSecondary">
-              {h.date}
-            </TimelineOppositeContent>
             <TimelineSeparator>
               {icons(h.icon)}
               <TimelineConnector />
@@ -80,6 +75,7 @@ export const HistoryTimeline: React.FC = () => {
               <Typography variant="h6" component="span">
                 <Link style={{ textDecoration: "none" }} href={h.url}>{h.event}</Link>
               </Typography>
+              <Typography color="textSecondary">{h.date}</Typography>
               <Typography>{h.description}</Typography>
             </TimelineContent>
           </TimelineItem>
