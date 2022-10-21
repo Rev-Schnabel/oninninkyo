@@ -16,7 +16,7 @@ export const people: People[] = [
     apprenticeshipDate: "2012/01/27 23:05:59",
     apprenticeshipDateUrl: "https://uni.5ch.net/test/read.cgi/psy/1325761010/",
     pastorInaugurationDate: "2012/12/30 10:31:44",
-    pastorInaugurationDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1356692122",
+    pastorInaugurationDateUrl: "https://toro.5ch.net/test/read.cgi/siberia/1356692122/",
     description: "以前に非行を行い、おにんにん総帥から破門を言い渡された。その後、は瀬川となるまでに落ちぶれたが、再び改心し祈りを捧げ続けた結果、おにんにん総帥から「弟子たちの多数決により元の姿に戻っても良い」との多大なる慈悲を受けることになり、無事元の姿に戻ることが出来た。その後研鑽を積み、2013 年より牧師となることを認められた。現在はおにんにん総帥からの信頼厚く、右腕として活躍している。",
   },
   {
@@ -145,7 +145,6 @@ export const people: People[] = [
     pastorInaugurationDateUrl: "",
     description: "自称オクレンボ田中として熱心に祈りを捧げ、弟子となった。自身のネットリテラシーの高さを活かし Wiki の運営方針やインターネット上での活動に対する知見を提供した。2022 年 10 月現在、行方不明。",
   },
-
 ];
 
 export const otherPeople: People[] = [
