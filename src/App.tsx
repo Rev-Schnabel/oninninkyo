@@ -12,6 +12,7 @@ import { Founder } from "./founder/founder";
 import { Oninninian } from "./oninninian/oninninian";
 import { Archive } from "./archive/archive";
 import { Store } from "./store/store";
+import { History } from "./history/history";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path={`${process.env.PUBLIC_URL}/founder`} element={<Founder />} />
           <Route path={`${process.env.PUBLIC_URL}/oninninian`} element={<Oninninian />} />
           <Route path={`${process.env.PUBLIC_URL}/store`} element={<Store/>} />
+          <Route path={`${process.env.PUBLIC_URL}/history`} element={<History/>} />
           <Route path={`${process.env.PUBLIC_URL}/archive`} element={<Archive />} />
           <Route path={`${process.env.PUBLIC_URL}/*`} element={< Error404/>} />
         </Routes>
