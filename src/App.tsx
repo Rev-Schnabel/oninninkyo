@@ -6,6 +6,7 @@ import {
   BrowserRouter,
 } from "react-router-dom";
 
+import { Notfound } from "./notfound/notfound";
 import { Home} from "./home/home";
 import { About } from "./about/about";
 import { Founder } from "./founder/founder";
@@ -26,18 +27,9 @@ function App() {
           <Route path={`${process.env.PUBLIC_URL}/store`} element={<Store/>} />
           <Route path={`${process.env.PUBLIC_URL}/history`} element={<History/>} />
           <Route path={`${process.env.PUBLIC_URL}/archive`} element={<Archive />} />
-          <Route path={`${process.env.PUBLIC_URL}/*`} element={< Error404/>} />
+          <Route path={`${process.env.PUBLIC_URL}/*`} element={< Notfound/>} />
         </Routes>
       </BrowserRouter>
-    </div>
-  );
-}
-
-export const Error404: React.FC = () => {
-  return (
-    <div>
-      <h2>404</h2>
-      <p>Page not found.</p>
     </div>
   );
 }
