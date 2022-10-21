@@ -74,14 +74,14 @@ export const HistoryTimeline: React.FC = () => {
             </TimelineOppositeContent>
             <TimelineSeparator>
               {icons(h.icon)}
-            <TimelineConnector />
+              <TimelineConnector />
             </TimelineSeparator>
-              <TimelineContent sx={{ py: '12px', px: 2 }}>
-                <Typography variant="h6" component="span">
-                  <Link style={{ textDecoration: "none" }} href={h.url}>{h.event}</Link>
-                </Typography>
-                <Typography>{h.description}</Typography>
-              </TimelineContent>
+            <TimelineContent sx={{ py: '12px', px: 2 }}>
+              <Typography variant="h6" component="span">
+                <Link style={{ textDecoration: "none" }} href={h.url}>{h.event}</Link>
+              </Typography>
+              <Typography>{h.description}</Typography>
+            </TimelineContent>
           </TimelineItem>
         ))}
       </Timeline>
