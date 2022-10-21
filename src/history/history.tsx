@@ -18,7 +18,7 @@ export const History: React.FC = () => {
       <Box sx={{ m: 2 }}>
         <Paper elevation={3} sx={{ m: 2, p: 2}}>
           <Typography variant="h5">
-            おにんにん教の歴史
+            【工事中】おにんにん教の歴史
           </Typography>
           <Divider variant="middle" sx={{ m: 1 }}/>
           <Typography variant="body1" gutterBottom>
