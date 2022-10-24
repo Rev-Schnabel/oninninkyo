@@ -141,4 +141,11 @@ export const history: History[] = [
     url: "https://mastiff.5ch.net/test/read.cgi/siberia/1395630708/",
     description: "",
   },
+  {
+    event: "聖おにんにん教したらば神殿の完成",
+    icon: "accountBalance",
+    date: "2013/03/22 20:17:17",
+    url: "https://jbbs.shitaraba.net/bbs/read.cgi/study/12015/1363951037/",
+    description: "2022/10 現在、主な神殿として使用されている神殿が完成した日。元々はシベリアからの避難先として使用されていた側面もあったが、この神殿がおにんにん教神殿の中で最も長い期間使用された神殿となる。",
+  },
 ];

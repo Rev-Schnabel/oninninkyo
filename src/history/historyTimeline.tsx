@@ -20,7 +20,8 @@ import {
   AutoAwesome,
   Cake,
   FiberManualRecord,
-  MilitaryTech
+  MilitaryTech,
+  AccountBalance
 } from '@mui/icons-material';
 
 import { history } from "./data";
@@ -46,7 +47,13 @@ export const HistoryTimeline: React.FC = () => {
             <MilitaryTech />
           </TimelineDot>
         );
-      default:
+        case 'accountBalance':
+          return (
+            <TimelineDot color="warning">
+              <AccountBalance />
+            </TimelineDot>
+          );
+        default:
         return (
           <TimelineDot color="grey">
             <FiberManualRecord />
