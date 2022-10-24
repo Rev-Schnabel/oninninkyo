@@ -329,6 +329,15 @@ export const otherPeople: People[] = [
     pastorInaugurationDateUrl: "",
     description: "およそ 2 週間かけて全てのおにんにん教神殿を巡礼した猛者。初めての神殿への投稿を以て当初はおにんと名乗ったが、不敬かもしれないと懸念しあらまきに改名した思慮深い信徒。",
   },
+  {
+    name: "おにんにん教管理人★",
+    face: "（　＾ω＾）",
+    apprenticeshipDate: "2013/06/18 23:08:11",
+    apprenticeshipDateUrl: "https://jbbs.shitaraba.net/bbs/read.cgi/study/12015/1363951037/256",
+    pastorInaugurationDate: "",
+    pastorInaugurationDateUrl: "",
+    description: "現在主に使用されているおにんにん教したらば神殿の管理人。以前から神殿に居たが、初めてキャプをつけた日は 2013/06/18 となる。快適な神殿の存在は氏の尽力によって支えられている。信徒からも慕われおにんにん総帥からの信頼も厚い人格者。穏やかな立ち居振る舞いの裏には、魑魅魍魎を秘密裏に滅する「掃除屋」の一面も…。",
+  },
 ];
 
 export const evilSpirits: People[] = [
