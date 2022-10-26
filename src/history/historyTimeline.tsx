@@ -22,7 +22,8 @@ import {
   FiberManualRecord,
   MilitaryTech,
   AccountBalance,
-  Restaurant
+  Restaurant,
+  NewReleases
 } from '@mui/icons-material';
 
 import { history } from "./data";
@@ -48,24 +49,30 @@ export const HistoryTimeline: React.FC = () => {
             <MilitaryTech />
           </TimelineDot>
         );
-        case 'accountBalance':
-          return (
-            <TimelineDot color="warning">
-              <AccountBalance />
-            </TimelineDot>
-          );
-        case 'restaurant':
-          return (
-            <TimelineDot color="primary">
-              <Restaurant />
-            </TimelineDot>
-          );
-        default:
-          return (
-            <TimelineDot color="grey">
-              <FiberManualRecord />
-            </TimelineDot>
-          );
+      case 'accountBalance':
+        return (
+          <TimelineDot color="warning">
+            <AccountBalance />
+          </TimelineDot>
+        );
+      case 'restaurant':
+        return (
+          <TimelineDot color="primary">
+            <Restaurant />
+          </TimelineDot>
+        );
+      case 'newReleases':
+        return (
+          <TimelineDot color="error">
+            <NewReleases />
+          </TimelineDot>
+        );
+      default:
+        return (
+          <TimelineDot color="grey">
+            <FiberManualRecord />
+          </TimelineDot>
+        );
     }
   }
 
