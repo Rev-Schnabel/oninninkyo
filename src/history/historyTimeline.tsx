@@ -83,6 +83,10 @@ export const HistoryTimeline: React.FC = () => {
                 <Link style={{ textDecoration: "none" }} href={h.url}>{h.event}</Link>
               </Typography>
               <Typography color="textSecondary">{h.date}</Typography>
+              {/*
+              Allow scroll only the AA part but it does not work...
+              {h.artwork && <Typography sx={{ p: 0, whiteSpace: 'pre',  overflow: 'auto' }}>{h.artwork}</Typography>}
+              */}
               <Typography>{h.description}</Typography>
             </TimelineContent>
           </TimelineItem>

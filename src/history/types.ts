@@ -3,5 +3,6 @@ export type History = {
   event: string;
   icon?: string;
   url: string;
+  artwork?: string;
   description: string;
 };
