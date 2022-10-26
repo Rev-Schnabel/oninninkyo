@@ -150,7 +150,7 @@ export const history: History[] = [
   },
   {
     event: "ディオニュソス牧師による炊き出し",
-    icon: "",
+    icon: "restaurant",
     date: "2012/02/27 19:05:29",
     url: "https://uni.5ch.net/test/read.cgi/psy/1328889186/",
     artwork: `

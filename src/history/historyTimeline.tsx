@@ -21,7 +21,8 @@ import {
   Cake,
   FiberManualRecord,
   MilitaryTech,
-  AccountBalance
+  AccountBalance,
+  Restaurant
 } from '@mui/icons-material';
 
 import { history } from "./data";
@@ -37,7 +38,7 @@ export const HistoryTimeline: React.FC = () => {
         );
       case 'cake':
         return (
-          <TimelineDot color="primary">
+          <TimelineDot color="info">
             <Cake />
           </TimelineDot>
         );
@@ -53,12 +54,18 @@ export const HistoryTimeline: React.FC = () => {
               <AccountBalance />
             </TimelineDot>
           );
+        case 'restaurant':
+          return (
+            <TimelineDot color="primary">
+              <Restaurant />
+            </TimelineDot>
+          );
         default:
-        return (
-          <TimelineDot color="grey">
-            <FiberManualRecord />
-          </TimelineDot>
-        );
+          return (
+            <TimelineDot color="grey">
+              <FiberManualRecord />
+            </TimelineDot>
+          );
     }
   }
 
