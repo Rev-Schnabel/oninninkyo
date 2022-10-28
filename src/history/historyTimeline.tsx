@@ -44,7 +44,7 @@ export const HistoryTimeline: React.FC = () => {
               Allow scroll only the AA part but it does not work...
               {h.artwork && <Typography sx={{ p: 0, whiteSpace: 'pre',  overflow: 'auto' }}>{h.artwork}</Typography>}
               */}
-              <Typography>{h.description}</Typography>
+              <Typography sx={{ whiteSpace: 'pre-wrap' }}>{h.description}</Typography>
             </TimelineContent>
           </TimelineItem>
         ))}
