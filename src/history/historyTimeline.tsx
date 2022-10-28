@@ -6,8 +6,7 @@ import {
   timelineItemClasses,
   TimelineSeparator,
   TimelineConnector,
-  TimelineContent,
-  TimelineDot
+  TimelineContent
 } from '@mui/lab';
 
 import { 
@@ -16,66 +15,10 @@ import {
   Link
 } from "@mui/material";
 
-import {
-  AutoAwesome,
-  Cake,
-  FiberManualRecord,
-  MilitaryTech,
-  AccountBalance,
-  Restaurant,
-  NewReleases
-} from '@mui/icons-material';
-
 import { history } from "./data";
+import { IconCatering } from "./iconCatering";
 
 export const HistoryTimeline: React.FC = () => {
-  const icons = (icon: string | undefined) => {
-    switch(icon) {
-      case 'autoAwesome':
-        return (
-          <TimelineDot color="warning">
-            <AutoAwesome />
-          </TimelineDot>
-        );
-      case 'cake':
-        return (
-          <TimelineDot color="info">
-            <Cake />
-          </TimelineDot>
-        );
-      case 'militaryTech':
-        return (
-          <TimelineDot color="success">
-            <MilitaryTech />
-          </TimelineDot>
-        );
-      case 'accountBalance':
-        return (
-          <TimelineDot color="warning">
-            <AccountBalance />
-          </TimelineDot>
-        );
-      case 'restaurant':
-        return (
-          <TimelineDot color="primary">
-            <Restaurant />
-          </TimelineDot>
-        );
-      case 'newReleases':
-        return (
-          <TimelineDot color="error">
-            <NewReleases />
-          </TimelineDot>
-        );
-      default:
-        return (
-          <TimelineDot color="grey">
-            <FiberManualRecord />
-          </TimelineDot>
-        );
-    }
-  }
-
   return (
     <Paper elevation={3} sx={{ m: 2, p: 2}}>
       <Timeline
@@ -89,7 +32,7 @@ export const HistoryTimeline: React.FC = () => {
         {history.sort((a, b) => +new Date(a.date) - +new Date(b.date)).map(h => (
           <TimelineItem key={h.date}>
             <TimelineSeparator>
-              {icons(h.icon)}
+              <IconCatering iconName={h.icon} />
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent sx={{ py: '12px', px: 2 }}>
