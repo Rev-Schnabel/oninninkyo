@@ -283,4 +283,11 @@ IP アドレスの第四オクテットのみ違う投稿も散見されたが�
     url: "https://toro.5ch.net/test/read.cgi/siberia/1336240072/168",
     description: "シベリアに佇む †　シベリア教会　† のアーカード・ショボン ◆v.S.2GeT8Y 氏がおにんにん教神殿を訪れた日。信仰の対象は違えど、世の安寧を目指す心は同じ。和やかな交流が行われた。",
   },
+  {
+    event: "おにんにん教 Wiki の作成",
+    icon: "accountBalance",
+    date: "2012/07/08 04:35:56",
+    url: "https://toro.5ch.net/test/read.cgi/siberia/1341138609/265",
+    description: "おにんにん教初となる Wiki ページが Wikipedia に作成された。しかし、残念ながらすぐに削除されてしまった。続いてアンサイクロペディアに作成されたが削除されてしまった。他にはアットウィキや Enpedia にも作成されたが、現在残っている Wiki は Enpedia のおにんにん総帥について記載された項目のみである。 っ https://enpedia.rxy.jp/wiki/おにんにん総帥",
+  },
 ];
