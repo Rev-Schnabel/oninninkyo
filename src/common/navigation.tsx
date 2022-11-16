@@ -21,6 +21,7 @@ const pages: string[] = [
   "founder",
   "oninninian",
   "store",
+  "history",
   "archive"
 ];
 
