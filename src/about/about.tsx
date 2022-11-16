@@ -8,6 +8,7 @@ import {
 } from "@mui/material";
 
 import from_the_foot_of_Olympus from './media/From_the_foot_of_Olympus.mp3';
+import from_the_foot_of_Olympus_full from './media/From_the_foot_of_Olympus.v0.0.6.mp3';
 
 import { Navigation } from "../common/navigation";
 
@@ -70,8 +71,10 @@ export const About: React.FC = () => {
           </Typography>
           <Divider variant="middle" sx={{ m: 1 }}/>
           <Typography variant="body1" gutterBottom>
-            From the foot of Olympus (ショートバージョン)<br /><br />
-            <audio controls src={from_the_foot_of_Olympus} />
+            From the foot of Olympus (ポップス・ショートバージョン)<br />
+            <audio controls src={from_the_foot_of_Olympus} /><br /><br />
+            From the foot of Olympus (フルバージョン)<br />
+            <audio controls src={from_the_foot_of_Olympus_full} />
           </Typography>
           <Divider variant="middle" sx={{ m: 1 }}/>
           <Typography variant="body1" gutterBottom>
