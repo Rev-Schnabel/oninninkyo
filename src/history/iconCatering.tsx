@@ -12,7 +12,8 @@ import {
   NewReleases,
   Diversity3,
   Celebration,
-  EventSeat
+  EventSeat,
+  QueueMusic
 } from '@mui/icons-material';
 
 type Props = {
@@ -73,6 +74,12 @@ export const IconCatering: React.FC<Props> = (props: Props) => {
       return (
         <TimelineDot color="primary">
           <EventSeat />
+        </TimelineDot>
+      );
+    case 'queueMusic':
+      return (
+        <TimelineDot color="warning">
+          <QueueMusic />
         </TimelineDot>
       );
     default:
