@@ -10,7 +10,8 @@ import {
   AccountBalance,
   Restaurant,
   NewReleases,
-  Diversity3
+  Diversity3,
+  Celebration
 } from '@mui/icons-material';
 
 type Props = {
@@ -59,6 +60,12 @@ export const IconCatering: React.FC<Props> = (props: Props) => {
       return (
         <TimelineDot color="info">
           <Diversity3 />
+        </TimelineDot>
+      );
+    case 'celebration':
+      return (
+        <TimelineDot color="primary">
+          <Celebration />
         </TimelineDot>
       );
     default:
