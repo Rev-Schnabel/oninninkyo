@@ -356,4 +356,18 @@ IP アドレスの第四オクテットのみ違う投稿も散見されたが�
     url: "https://jbbs.shitaraba.net/bbs/read.cgi/study/12015/1363951037/2686",
     description: "おにんにん総帥によるラジオが Youtube に公開された。録音は自然豊かな公園で行われ、多くの生き物達がおにんにん総帥を慕い集まってきた。しかしながらその影響で収録がし辛そうであった…。",
   },
+  {
+    event: "おにんにん教サイト「Oninninianity」の立ち上げ",
+    icon: "accountBalance",
+    date: "2022/10/12 23:02:19",
+    url: "https://jbbs.shitaraba.net/bbs/read.cgi/study/12015/1363951037/8768",
+    description: `おにんにん教の情報をまとめたサイトがシュナーベルによって作成された日。本ページを含め、少しずつ更新されている。Oninninianity とはおにんにん教を意味する。
+蛇足ではあるがサイトを構成する主な技術情報は以下の通り。
+
+・言語: TypeScript
+・フレームワーク: React
+・ホスティング: GitHub Pages
+
+サイトのソースコードは全て GitHub アカウント Rev-Schnabel 内の oninninkyo リポジトリ内に存在するので、もし興味があれば見ていただければ幸いに思う。`,
+  },
 ];
