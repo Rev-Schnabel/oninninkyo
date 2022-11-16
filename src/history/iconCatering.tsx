@@ -83,6 +83,12 @@ export const IconCatering: React.FC<Props> = (props: Props) => {
           <QueueMusic />
         </TimelineDot>
       );
+    case 'queueMusic-2':
+      return (
+        <TimelineDot color="primary">
+          <QueueMusic />
+        </TimelineDot>
+      );
     case 'photo':
       return (
         <TimelineDot color="primary">
