@@ -338,6 +338,15 @@ export const otherPeople: People[] = [
     pastorInaugurationDateUrl: "",
     description: "現在主に使用されているおにんにん教したらば神殿の管理人。以前から神殿に居たが、初めてキャプをつけた日は 2013/06/18 となる。快適な神殿の存在は氏の尽力によって支えられている。信徒からも慕われおにんにん総帥からの信頼も厚い人格者。穏やかな立ち居振る舞いの裏には、魑魅魍魎を秘密裏に滅する「掃除屋」の一面も…。",
   },
+  {
+    name: "のりまき ◆ru.XOjsst2",
+    face: "（　＾ω＾）",
+    apprenticeshipDate: "2022/11/23(水) 10:30:38",
+    apprenticeshipDateUrl: "https://jbbs.shitaraba.net/bbs/read.cgi/study/12015/1363951037/9053",
+    pastorInaugurationDate: "",
+    pastorInaugurationDateUrl: "",
+    description: "あらまきと似た名前を名乗る信徒。突然現れ、当初あらまきの関係者と思われたが、特に接点は無い別人とのこと。神殿内でよく談笑している姿が目撃される気さくな人物。",
+  },
 ];
 
 export const evilSpirits: People[] = [
