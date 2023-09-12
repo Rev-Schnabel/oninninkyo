@@ -48,7 +48,7 @@ export const Archive: React.FC = () => {
           <Divider variant="middle" sx={{ m: 1 }}/>
           <Typography variant="body1" gutterBottom>
             現在の神殿は以下に建てられている。<br />
-            ・<Link style={{ textDecoration: "none" }} href="https://jbbs.shitaraba.net/bbs/read.cgi/study/12015/1363951037/l50">（　＾ω＾）おにんにん教</Link><br /><br />
+            ・<Link style={{ textDecoration: "none" }} href="https://jbbs.shitaraba.net/bbs/read.cgi/study/12015/1694232945/">（　＾ω＾）おにんにん教 ★2</Link><br /><br />
             もし興味があれば、正式な神殿以外の資料も確認すると良い。もっとも、魑魅魍魎の作成したものも多数あるが…。<br />
             ・<Link style={{ textDecoration: "none" }} href="https://kakolog.jp/?q=%E3%81%8A%E3%81%AB%E3%82%93%E3%81%AB%E3%82%93%E6%95%99&d=2012">かころぐβ</Link><br />
             ・<Link style={{ textDecoration: "none" }} href="https://jbbs.shitaraba.net/study/12015/">聖おにんにん教したらば神殿</Link><br />

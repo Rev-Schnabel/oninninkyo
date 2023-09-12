@@ -120,4 +120,9 @@ export const archive: Archive[] = [
     url: "https://mastiff.5ch.net/test/read.cgi/siberia/1442207814/",
     description: "✖️ 魑魅魍魎によって建てられた偽りの神殿",
   },
+  {
+    title: "（　＾ω＾）おにんにん教",
+    url: "https://jbbs.shitaraba.net/bbs/read.cgi/study/12015/1363951037/",
+    description: "10 年以上の歴史を誇るおにんにん教最大の神殿",
+  },
 ]

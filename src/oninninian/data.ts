@@ -341,11 +341,20 @@ export const otherPeople: People[] = [
   {
     name: "のりまき ◆ru.XOjsst2",
     face: "（　＾ω＾）",
-    apprenticeshipDate: "2022/11/23(水) 10:30:38",
+    apprenticeshipDate: "2022/11/23 10:30:38",
     apprenticeshipDateUrl: "https://jbbs.shitaraba.net/bbs/read.cgi/study/12015/1363951037/9053",
     pastorInaugurationDate: "",
     pastorInaugurationDateUrl: "",
     description: "あらまきと似た名前を名乗る信徒。突然現れ、当初あらまきの関係者と思われたが、特に接点は無い別人とのこと。神殿内でよく談笑している姿が目撃される気さくな人物。",
+  },
+  {
+    name: "グルメ内藤",
+    face: "（　＾ω＾）",
+    apprenticeshipDate: "2023/03/26 09:58:07",
+    apprenticeshipDateUrl: "https://jbbs.shitaraba.net/bbs/read.cgi/study/12015/1363951037/9586",
+    pastorInaugurationDate: "",
+    pastorInaugurationDateUrl: "",
+    description: "2023/03/26 以前から神殿を訪れていたが、おにんにん総帥にグルメ内藤と呼称され、名乗り始めた日時が 2023/03/26 となっている。毎回様々な店を巡り、美味しそうなご飯やお酒をレポートしている。レポートは短い文章ではあるもののとても美味しそうであり、添付された写真はもはや飯テロである。また、博識なことでも知られる。",
   },
 ];
 
