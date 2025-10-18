@@ -9,6 +9,7 @@ import {
 
 import from_the_foot_of_Olympus from './media/From_the_foot_of_Olympus.mp3';
 import from_the_foot_of_Olympus_full from './media/From_the_foot_of_Olympus.v0.0.6.mp3';
+import from_the_foot_of_Olympus_suno_v1_0_0 from './media/From_the_foot_of_Olympus.suno.v1.0.0.mp3';
 
 import { Navigation } from "../common/navigation";
 
@@ -74,7 +75,9 @@ export const About: React.FC = () => {
             From the foot of Olympus (ポップス・ショートバージョン)<br />
             <audio controls src={from_the_foot_of_Olympus} /><br /><br />
             From the foot of Olympus (フルバージョン)<br />
-            <audio controls src={from_the_foot_of_Olympus_full} />
+            <audio controls src={from_the_foot_of_Olympus_full} /><br /><br />
+            From the foot of Olympus (おにんにん教交響楽団)<br />
+            <audio controls src={from_the_foot_of_Olympus_suno_v1_0_0} />
           </Typography>
           <Divider variant="middle" sx={{ m: 1 }}/>
           <Typography variant="body1" gutterBottom>
