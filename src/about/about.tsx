@@ -23,6 +23,7 @@ import from_the_foot_of_Olympus_suno_v1_10_0 from './media/19th century/From_the
 import from_the_foot_of_Olympus_suno_v1_11_0 from './media/19th century/From_the_foot_of_Olympus.suno.v1.11.0.mp3';
 import from_the_foot_of_Olympus_suno_v1_12_0 from './media/19th century/From_the_foot_of_Olympus.suno.v1.12.0.mp3';
 import from_the_foot_of_Olympus_suno_english_v1_4_0 from './media/19th century/From_the_foot_of_Olympus.suno.english.v1.4.0.mp3';
+import from_the_foot_of_Olympus_suno_english_v1_4_1 from './media/19th century/From_the_foot_of_Olympus.suno.english.v1.4.1.mp3';
 
 import { Navigation } from "../common/navigation";
 
@@ -89,8 +90,51 @@ export const About: React.FC = () => {
             <audio controls src={from_the_foot_of_Olympus} /><br /><br />
             From the foot of Olympus (フルバージョン)<br />
             <audio controls src={from_the_foot_of_Olympus_orpheus_v0_0_6} /><br /><br />
-            From the foot of Olympus (おにんにん教交響楽団)<br />
-            <audio controls src={from_the_foot_of_Olympus_suno_v1_0_0} />
+            From the foot of Olympus (リマスターバージョン)<br />
+            <audio controls src={from_the_foot_of_Olympus_orpheus_remaster_v0_0_6} /><br /><br />
+            From the foot of Olympus English<br />
+            <audio controls src={from_the_foot_of_Olympus_orpheus_remaster_english_v0_0_6} /><br /><br />
+          </Typography>
+          <Typography variant="h6">
+            EPIC
+          </Typography>
+          <Typography variant="body1" gutterBottom>
+            おにんにん教交響楽団による、おにんにん総帥の壮大さをイメージした曲調の讃美歌です。<br />
+            複数の曲調をお楽しみください。<br /><br />
+          </Typography>
+          <Typography variant="body2" gutterBottom>
+            From the foot of Olympus (ver1]<br />
+            <audio controls src={from_the_foot_of_Olympus_suno_v1_0_0} /><br /><br />
+            From the foot of Olympus (ver6]<br />
+            <audio controls src={from_the_foot_of_Olympus_suno_v1_6_0} /><br /><br />
+            From the foot of Olympus (ver13]<br />
+            <audio controls src={from_the_foot_of_Olympus_suno_v1_13_0} /><br /><br />
+            From the foot of Olympus (ver14]<br />
+            <audio controls src={from_the_foot_of_Olympus_suno_v1_14_0} /><br /><br />
+            From the foot of Olympus English (ver1]<br />
+            <audio controls src={from_the_foot_of_Olympus_suno_english_v1_0_0} /><br /><br />
+            From the foot of Olympus English (ver3]<br />
+            <audio controls src={from_the_foot_of_Olympus_suno_english_v1_3_0} /><br /><br />
+          </Typography>
+
+          <Typography variant="h6">
+            19TH CENTURY
+          </Typography>
+          <Typography variant="body1" gutterBottom>
+            おにんにん教交響楽団による、19 世紀のクラシックをイメージした曲調の讃美歌です。<br />
+            バッハやフォーレのような、またはどこか終末的な雰囲気の曲調をお楽しみください。<br /><br />
+          </Typography>
+          <Typography variant="body2" gutterBottom>
+            From the foot of Olympus (ver10]<br />
+            <audio controls src={from_the_foot_of_Olympus_suno_v1_10_0} /><br /><br />
+            From the foot of Olympus (ver11]<br />
+            <audio controls src={from_the_foot_of_Olympus_suno_v1_11_0} /><br /><br />
+            From the foot of Olympus (ver12]<br />
+            <audio controls src={from_the_foot_of_Olympus_suno_v1_12_0} /><br /><br />
+            From the foot of Olympus English (ver4]<br />
+            <audio controls src={from_the_foot_of_Olympus_suno_english_v1_4_0} /><br /><br />
+            From the foot of Olympus English (ver4.1]<br />
+            <audio controls src={from_the_foot_of_Olympus_suno_english_v1_4_1} /><br /><br />
           </Typography>
           <Divider variant="middle" sx={{ m: 1 }}/>
           <Typography variant="body1" gutterBottom>
