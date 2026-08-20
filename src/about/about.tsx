@@ -103,17 +103,17 @@ export const About: React.FC = () => {
             複数の曲調をお楽しみください。<br /><br />
           </Typography>
           <Typography variant="body2" gutterBottom>
-            From the foot of Olympus (ver1]<br />
+            From the foot of Olympus (ver1)<br />
             <audio controls src={from_the_foot_of_Olympus_suno_v1_0_0} /><br /><br />
-            From the foot of Olympus (ver6]<br />
+            From the foot of Olympus (ver6)<br />
             <audio controls src={from_the_foot_of_Olympus_suno_v1_6_0} /><br /><br />
-            From the foot of Olympus (ver13]<br />
+            From the foot of Olympus (ver13)<br />
             <audio controls src={from_the_foot_of_Olympus_suno_v1_13_0} /><br /><br />
-            From the foot of Olympus (ver14]<br />
+            From the foot of Olympus (ver14)<br />
             <audio controls src={from_the_foot_of_Olympus_suno_v1_14_0} /><br /><br />
-            From the foot of Olympus English (ver1]<br />
+            From the foot of Olympus English (ver1)<br />
             <audio controls src={from_the_foot_of_Olympus_suno_english_v1_0_0} /><br /><br />
-            From the foot of Olympus English (ver3]<br />
+            From the foot of Olympus English (ver3)<br />
             <audio controls src={from_the_foot_of_Olympus_suno_english_v1_3_0} /><br /><br />
           </Typography>
 
@@ -125,15 +125,15 @@ export const About: React.FC = () => {
             バッハやフォーレのような、またはどこか終末的な雰囲気の曲調をお楽しみください。<br /><br />
           </Typography>
           <Typography variant="body2" gutterBottom>
-            From the foot of Olympus (ver10]<br />
+            From the foot of Olympus (ver10)<br />
             <audio controls src={from_the_foot_of_Olympus_suno_v1_10_0} /><br /><br />
-            From the foot of Olympus (ver11]<br />
+            From the foot of Olympus (ver11)<br />
             <audio controls src={from_the_foot_of_Olympus_suno_v1_11_0} /><br /><br />
-            From the foot of Olympus (ver12]<br />
+            From the foot of Olympus (ver12)<br />
             <audio controls src={from_the_foot_of_Olympus_suno_v1_12_0} /><br /><br />
-            From the foot of Olympus English (ver4]<br />
+            From the foot of Olympus English (ver4)<br />
             <audio controls src={from_the_foot_of_Olympus_suno_english_v1_4_0} /><br /><br />
-            From the foot of Olympus English (ver4.1]<br />
+            From the foot of Olympus English (ver4.1)<br />
             <audio controls src={from_the_foot_of_Olympus_suno_english_v1_4_1} /><br /><br />
           </Typography>
           <Divider variant="middle" sx={{ m: 1 }}/>
