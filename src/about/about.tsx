@@ -8,8 +8,21 @@ import {
 } from "@mui/material";
 
 import from_the_foot_of_Olympus from './media/From_the_foot_of_Olympus.mp3';
-import from_the_foot_of_Olympus_full from './media/From_the_foot_of_Olympus.v0.0.6.mp3';
-import from_the_foot_of_Olympus_suno_v1_0_0 from './media/From_the_foot_of_Olympus.suno.v1.0.0.mp3';
+import from_the_foot_of_Olympus_orpheus_v0_0_6 from './media/From_the_foot_of_Olympus.orpheus.v0.0.6.mp3';
+import from_the_foot_of_Olympus_orpheus_remaster_v0_0_6 from './media/From_the_foot_of_Olympus.orpheus.remaster.v0.0.6.mp3';
+import from_the_foot_of_Olympus_orpheus_remaster_english_v0_0_6 from './media/From_the_foot_of_Olympus.orpheus.remaster.english.v0.0.6.mp3';
+
+import from_the_foot_of_Olympus_suno_v1_0_0 from './media/Epic/From_the_foot_of_Olympus.suno.v1.0.0.mp3';
+import from_the_foot_of_Olympus_suno_v1_6_0 from './media/Epic/From_the_foot_of_Olympus.suno.v1.6.0.mp3';
+import from_the_foot_of_Olympus_suno_v1_13_0 from './media/Epic/From_the_foot_of_Olympus.suno.v1.13.0.mp3';
+import from_the_foot_of_Olympus_suno_v1_14_0 from './media/Epic/From_the_foot_of_Olympus.suno.v1.14.0.mp3';
+import from_the_foot_of_Olympus_suno_english_v1_0_0 from './media/Epic/From_the_foot_of_Olympus.suno.english.v1.0.0.mp3';
+import from_the_foot_of_Olympus_suno_english_v1_3_0 from './media/Epic/From_the_foot_of_Olympus.suno.english.v1.3.0.mp3';
+
+import from_the_foot_of_Olympus_suno_v1_10_0 from './media/19th century/From_the_foot_of_Olympus.suno.v1.10.0.mp3';
+import from_the_foot_of_Olympus_suno_v1_11_0 from './media/19th century/From_the_foot_of_Olympus.suno.v1.11.0.mp3';
+import from_the_foot_of_Olympus_suno_v1_12_0 from './media/19th century/From_the_foot_of_Olympus.suno.v1.12.0.mp3';
+import from_the_foot_of_Olympus_suno_english_v1_4_0 from './media/19th century/From_the_foot_of_Olympus.suno.english.v1.4.0.mp3';
 
 import { Navigation } from "../common/navigation";
 
@@ -75,7 +88,7 @@ export const About: React.FC = () => {
             From the foot of Olympus (ポップス・ショートバージョン)<br />
             <audio controls src={from_the_foot_of_Olympus} /><br /><br />
             From the foot of Olympus (フルバージョン)<br />
-            <audio controls src={from_the_foot_of_Olympus_full} /><br /><br />
+            <audio controls src={from_the_foot_of_Olympus_orpheus_v0_0_6} /><br /><br />
             From the foot of Olympus (おにんにん教交響楽団)<br />
             <audio controls src={from_the_foot_of_Olympus_suno_v1_0_0} />
           </Typography>
